@@ -1,6 +1,7 @@
 
-import About from './Components/About'
+// import About from './Components/About'
 import Home from './Components/Home'
+import Roadmap from './Components/Roadmap'
 import './globals.css'
 
 function App() {
@@ -32,7 +33,9 @@ function App() {
 
     <Home/>
     
-    <About/>
+    {/* <About/> */}
+
+    <Roadmap/>
     
 
    </div>
