@@ -1,8 +1,10 @@
 
 // import About from './Components/About'
+import About from './Components/About'
 import Footer from './Components/Footer'
 import Home from './Components/Home'
 import Roadmap from './Components/Roadmap'
+import Tokenomics from './Components/Tokenomics'
 import './globals.css'
 
 function App() {
@@ -32,17 +34,17 @@ function App() {
 
     </div>
 
-    <div className='fullBG flex flex-col mt-[10rem] w-full h-[4598px]'>
+    <div className='fullBG flex flex-col mt-[10rem] w-full h-[4548px]'>
       <div className='absolute w-full top-0'>
         <Home/>
       </div>
-
-      <Roadmap/>
+      <div className='relative'>
+        <About/>
+        <Tokenomics/>
+        <Roadmap/>
+      </div>
     </div>
-
     <Footer/>
-    
-
    </div>
   )
 }

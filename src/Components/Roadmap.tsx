@@ -1,7 +1,7 @@
 
 const Roadmap = () => {
   return (
-    <div className="w-full h-full mt-[216rem]">
+    <div className="w-full h-full absolute pt-[216rem]">
 
         <div className="py-[20rem]">
             <div className="flex  flex-col space-y-20 items-center justify-center">
