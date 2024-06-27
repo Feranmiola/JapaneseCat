@@ -30,7 +30,6 @@ const Home = () => {
             src="./assets/chineseHouseBG.svg"
             className="w-full absolute"
             />
-
         </div>
     </div>
   )

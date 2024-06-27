@@ -18,7 +18,9 @@ module.exports = {
     },
     extend: {
       backgroundImage:{
-        'aboutBG' : "url('/assets/aboutBG.svg')"
+        'section' : "url('/assets/aboutBackground.svg')",
+        'aboutBG' : "url('/assets/aboutBG.svg')",
+
       },
       fontFamily: {
         "electroharmonix": ['Electroharmonix'],

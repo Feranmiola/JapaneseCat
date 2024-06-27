@@ -1,15 +1,9 @@
 
 const About = () => {
   return (
-    <div className="w-full bg-tokenomicsBg mt-[25rem] z-30">
-         <div className="absolute w-full top-[63rem]">
-            <img
-            src="./assets/homeBottom.svg"
-            className="w-full"
-            />
-        </div>
+    <div className="w-full absolute top-[65rem] section2 z-40">
 
-        <div className="py-[20rem] aboutBG">
+        <div className="my-[32rem]">
             <div className="flex flex-col space-y-[15rem] items-center justify-center">
                 <div className="flex flex-col items-center justify-center space-y-2">
                     <p className="font-electroharmonix text-[48px] text-goldText">About Japanese Cat</p>

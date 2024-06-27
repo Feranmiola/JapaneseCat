@@ -31,7 +31,9 @@ function App() {
     </div>
 
     <Home/>
+    
     <About/>
+    
 
    </div>
   )

@@ -100,3 +100,11 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  .section2{
+    background-image: url('./assets/aboutBackground.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9999;
+    
+  }
