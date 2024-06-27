@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Electroharmonix';
-  src: url('./assets/fonts/electroharmonix.ttf') format('truetype');
+  src: url('/assets/fonts/electroharmonix.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
