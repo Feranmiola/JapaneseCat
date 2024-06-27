@@ -31,12 +31,6 @@ const Home = () => {
             className="w-full absolute"
             />
 
-        <div className="absolute w-full z-30 pt-[20rem]">
-            <img
-            src="./assets/homeBottom.svg"
-            className="w-full"
-            />
-        </div>
         </div>
     </div>
   )

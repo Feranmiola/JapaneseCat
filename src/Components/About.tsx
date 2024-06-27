@@ -1,7 +1,13 @@
 
 const About = () => {
   return (
-    <div className="w-full bg-tokenomicsBg relative mt-[25rem]">
+    <div className="w-full bg-tokenomicsBg mt-[25rem] z-30">
+         <div className="absolute w-full top-[63rem]">
+            <img
+            src="./assets/homeBottom.svg"
+            className="w-full"
+            />
+        </div>
 
         <div className="py-[20rem] aboutBG">
             <div className="flex flex-col space-y-[15rem] items-center justify-center">
