@@ -1,9 +1,9 @@
 
 const About = () => {
   return (
-    <div className="w-full absolute z-40">
+    <div className="w-full absolute mt-[65rem] z-40">
 
-        <div className="mt-[50rem]">
+        <div className="pt-[35rem] pb-[10rem]">
             <div className="flex flex-col space-y-[15rem] items-center justify-center">
                 <div className="flex flex-col items-center justify-center space-y-2">
                     <p className="font-electroharmonix text-[48px] text-goldText">About Japanese Cat</p>

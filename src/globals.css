@@ -109,15 +109,12 @@
     
   }
 
-  .fullBG {
+  .fullBG{
     background-image: url('/assets/fullBackground.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top 5%; /* Adjust this value to shift the image down */
-    min-height: 600vh; /* Ensure it covers at least the full viewport height */
-    width: 100%;
   }
-  
+
   ul{
     list-style-type: disc;
   }
