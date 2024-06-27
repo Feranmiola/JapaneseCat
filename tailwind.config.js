@@ -21,6 +21,11 @@ module.exports = {
         electroharmonix: ['Electroharmonix', 'sans-serif'],
       },
       colors: {
+        "headerText" : "#EB0000",
+        "goldText" : "#DFB850",
+        "roadmapBG" : "#FFF6DC",
+        "roadmapBorder" : "#BB1605",
+        "tokenomicsBg" : "#BB1605",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
