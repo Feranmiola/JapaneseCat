@@ -4,6 +4,7 @@ import About from './Components/About'
 import Footer from './Components/Footer'
 import Home from './Components/Home'
 import Roadmap from './Components/Roadmap'
+import Socials from './Components/Socials'
 import Tokenomics from './Components/Tokenomics'
 import './globals.css'
 
@@ -42,6 +43,7 @@ function App() {
         <About/>
         <Tokenomics/>
         <Roadmap/>
+        <Socials/>
       </div>
     </div>
     <Footer/>
