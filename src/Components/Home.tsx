@@ -4,10 +4,10 @@ const Home = () => {
     <div className="w-screen h-screen ">
         <div className="flex items-center relative justify-center pt-20">
             <p className=" font-electroharmonix text-[150px] text-headerText w-[830px] text-center leading-none pt-[8rem]">Japanese Cat</p>
-            <img
+            {/* <img
             src="./assets/jcBG.svg"
             className="absolute pt-[8rem]"
-            />
+            /> */}
         </div>
         
         <div className="flex flex-col space-y-5 items-center justify-center py-5">
@@ -16,7 +16,7 @@ const Home = () => {
         </div>
 
 
-        <div className="relative w-full pt-10">
+        {/* <div className="relative w-full pt-10">
             <div className="absolute w-full flex justify-between">
                 <img
                 src="./assets/catLeft.svg"
@@ -30,7 +30,7 @@ const Home = () => {
             src="./assets/chineseHouseBG.svg"
             className="w-full absolute"
             />
-        </div>
+        </div> */}
     </div>
   )
 }

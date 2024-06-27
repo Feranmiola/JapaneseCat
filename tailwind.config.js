@@ -20,6 +20,7 @@ module.exports = {
       backgroundImage:{
         'section' : "url('/assets/aboutBackground.svg')",
         'aboutBG' : "url('/assets/aboutBG.svg')",
+        'fullbg' : "url('/assets/fullBackground.svg')",
 
       },
       fontFamily: {

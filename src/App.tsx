@@ -32,11 +32,13 @@ function App() {
 
     </div>
 
-    <Home/>
-    
-    {/* <About/> */}
+    <div className='fullBG flex flex-col mt-[10rem] w-full h-[4598px]'>
+      <div className='absolute w-full top-0'>
+        <Home/>
+      </div>
 
-    <Roadmap/>
+      <Roadmap/>
+    </div>
 
     <Footer/>
     

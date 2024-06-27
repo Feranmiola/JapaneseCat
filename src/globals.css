@@ -109,6 +109,13 @@
     
   }
 
+  .fullBG{
+    background-image: url('./assets/fullBackground.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 9999;
+  }
+
   ul{
     list-style-type: disc;
   }
