@@ -17,8 +17,12 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage:{
+        'aboutBG' : "url('/assets/aboutBG.svg')"
+      },
       fontFamily: {
-        electroharmonix: ['Electroharmonix', 'sans-serif'],
+        "electroharmonix": ['Electroharmonix'],
+        "inter": ['Inter', 'sans-serif'],
       },
       colors: {
         "headerText" : "#EB0000",
@@ -26,6 +30,7 @@ module.exports = {
         "roadmapBG" : "#FFF6DC",
         "roadmapBorder" : "#BB1605",
         "tokenomicsBg" : "#BB1605",
+        "textDark" : "#616161",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

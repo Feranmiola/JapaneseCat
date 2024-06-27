@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 @font-face {
   font-family: 'Electroharmonix';
-  src: url('/src/assets/fonts/electroharmonix.ttf') format('truetype');
+  src: url('./assets/fonts/electroharmonix.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -80,4 +82,21 @@
     body {
       @apply bg-background text-foreground;
     }
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  html {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  }
+
+
+  .aboutBG{
+    background-image: url('./assets/aboutBG.svg');
+    background-position: center;
+    background-repeat: no-repeat;
   }
