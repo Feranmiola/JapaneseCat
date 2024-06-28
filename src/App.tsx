@@ -12,6 +12,11 @@ import { HashLoader } from 'react-spinners'
 
 function App() {
 
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const handleMobileDropdown = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  }
   const [loading, setLoading] = useState(true);
   const imageUrls = ['./assets/fullBackground.svg'];
   const imageUrlsMobile = ['./assets/fullBackgroundSmall.svg'];
@@ -83,16 +88,56 @@ if(loading){
           src='./assets/catSmall.svg'
           className='w-[29px] h-[42px]'
           />
-          <div>
-            <svg width="31" height="14" viewBox="0 0 31 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="31" height="4" fill="#BB1605"/>
-              <rect y="10" width="31" height="4" fill="#BB1605"/>
-            </svg>
+          <div onClick={handleMobileDropdown}>
+            {isMobileMenuOpen ? (
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="22" width="31" height="4" transform="rotate(-45 0 22)" fill="#BB1605"/>
+                <rect x="3" width="31" height="4" transform="rotate(45 3 0)" fill="#BB1605"/>
+              </svg>
+            ): (
+              <svg width="31" height="14" viewBox="0 0 31 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="31" height="4" fill="#BB1605"/>
+                <rect y="10" width="31" height="4" fill="#BB1605"/>
+              </svg>
+            )}
           </div>
 
       </div>
-
     </div>
+    <div className={`dropdown-menu ${isMobileMenuOpen ? 'slide-in' : 'slide-out'}`}>
+        <div className='flex flex-col space-y-10 w-full items-center pt-20 h-full justify-center'>
+          <div className='flex flex-col space-y-10 items-center'>
+            <a onClick={handleMobileDropdown} href='#Home' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>HOME</a>
+            <a onClick={handleMobileDropdown} href='#About' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ABOUT</a>
+            <a onClick={handleMobileDropdown} href='#Tokenomics' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>TOKENOMICS</a>
+            <a onClick={handleMobileDropdown} href='#Roadmap' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ROADMAP</a>
+          </div>
+          <div className='w-full'>
+            <div className="w-screen flex items-center justify-center">
+              <div className="flex flex-col w-[190%] space-y-[1px] p-10">
+                <div className="bg-[#FFF6DC]">
+                  <div className="py-5 px-5 flex flex-col space-y-2 items-center justify-center">
+                    <p className="text-[#BB1605] text-[95%] leading-none font-medium tracking-[0.2rem]">FOLLOW THE LUCKY CAT</p>
+                  </div>
+                </div>
+                <div className="bg-[#FFF6DC]">
+                  <div onClick={handleMobileDropdown} className="py-5 px-5 flex flex-row items-center space-x-2 justify-center">
+                    <img src="./assets/telegramIcon.svg" />
+                    <p className="text-[20px] tracking-[0.2rem]">TELEGRAM</p>
+                  </div>
+                </div>
+                <div className="bg-[#FFF6DC]">
+                  <div onClick={handleMobileDropdown} className="py-5 px-5 flex flex-row items-center space-x-2 justify-center">
+                    <img src="./assets/xicon.svg" />
+                    <p className="text-[20px] tracking-[0.2rem]">X (TWITTER)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
 
     <div className='fullBG max-md:hidden flex flex-col mt-[1rem] w-full h-[4848px]'>
       <div id='Home' className='absolute w-full top-0'>
@@ -114,7 +159,7 @@ if(loading){
       </div>
     </div>
 
-    <div className='lg:hidden fullBGSmall flex flex-col mt-[1rem] w-full  h-[4840px]'>
+    <div className='md:hidden fullBGSmall flex flex-col mt-[1rem] w-full  h-[4840px]'>
       <div id='Home' className='absolute w-full top-0'>
         <Home/>
       </div>
@@ -133,7 +178,7 @@ if(loading){
         </div>
       </div>
     </div>
-    <div className='mt-[-25px]'>
+    <div className='mt-[-25px] w-full'>
       <Footer/>
     </div>
    </div>
