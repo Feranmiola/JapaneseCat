@@ -42,7 +42,7 @@ if(loading){
 
   return (
    <div className='flex flex-col items-center justify-center'>
-    <div className='flex w-full h-[98px] bg-[#F8F8F8] items-center justify-center fixed top-0 z-50'>
+    <div className='flex max-lg:hidden w-full h-[98px] bg-[#F8F8F8] items-center justify-center fixed top-0 z-50'>
       <div className='flex flex-row px-20 w-full items-center justify-between'>
         <img
         src='./assets/catSmall.svg'
@@ -64,7 +64,24 @@ if(loading){
 
     </div>
 
-    <div className='fullBG flex flex-col mt-[1rem] w-full h-[4848px]'>
+    <div className='w-full fixed top-0 bg-[#F8F8F8]'>
+      <div className='w-full  flex flex-row justify-between items-center  p-5'>
+        <img
+          src='./assets/catSmall.svg'
+          className='w-[29px] h-[42px]'
+          />
+          <div>
+            <svg width="31" height="14" viewBox="0 0 31 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="31" height="4" fill="#BB1605"/>
+              <rect y="10" width="31" height="4" fill="#BB1605"/>
+            </svg>
+          </div>
+
+      </div>
+
+    </div>
+
+    <div className='lg:fullBG flex flex-col mt-[1rem] w-full h-[4848px]'>
       <div id='Home' className='absolute w-full top-0'>
         <Home/>
       </div>
