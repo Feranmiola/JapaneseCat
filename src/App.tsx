@@ -81,7 +81,7 @@ if(loading){
 
     </div>
 
-    <div className='lg:fullBG flex flex-col mt-[1rem] w-full h-[4848px]'>
+    <div className='fullBG max-md:hidden flex flex-col mt-[1rem] w-full h-[4848px]'>
       <div id='Home' className='absolute w-full top-0'>
         <Home/>
       </div>
@@ -100,6 +100,27 @@ if(loading){
         </div>
       </div>
     </div>
+
+    <div className='lg:hidden fullBGSmall flex flex-col mt-[1rem] w-full h-[4848px]'>
+      <div id='Home' className='absolute w-full top-0'>
+        <Home/>
+      </div>
+      <div className='relative'>
+        <div className='absolute mt-[45rem] pt-[35rem] w-full' id='About'>
+          <About/>
+        </div>
+        <div className='absolute w-full mt-[90rem] pt-[20rem]' id='Tokenomics'>
+          <Tokenomics/>
+        </div>
+        <div className='absolute w-full mt-[179rem] pt-[20rem]' id='community'>
+          <Socials/>
+        </div>
+        <div className='w-full h-full absolute mt-[236rem] py-[20rem]' id='Roadmap'>
+          <Roadmap/>
+        </div>
+      </div>
+    </div>
+
     <Footer/>
    </div>
   )

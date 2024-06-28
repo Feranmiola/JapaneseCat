@@ -3,7 +3,7 @@ const Tokenomics = () => {
     return (
       <div className="w-full">
           <div className="flex flex-col items-center justify-center">
-              <p className="font-electroharmonix text-[48px] text-goldText">TOKENOMICS</p>
+              <p className="font-electroharmonix text-[48px] max-lg:text-[32px] text-goldText">TOKENOMICS</p>
               <div className="flex flex-col items-center justify-center pt-10">
                   
                   <div className="flex flex-row items-center justify-center">

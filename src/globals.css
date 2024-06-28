@@ -116,6 +116,11 @@
     background-repeat: no-repeat;
   }
 
+  .fullBGSmall{
+    background-image: url('/assets/fullBackgroundSmall.svg');
+    background-repeat: no-repeat;
+  }
+
   ul{
     list-style-type: disc;
   }
