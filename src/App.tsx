@@ -115,7 +115,7 @@ if(loading){
         <div className='absolute w-full mt-[179rem] pt-[20rem]' id='community'>
           <Socials/>
         </div>
-        <div className='w-full h-full absolute mt-[236rem] py-[20rem]' id='Roadmap'>
+        <div className='w-full h-full absolute mt-[227rem] py-[20rem]' id='Roadmap'>
           <Roadmap/>
         </div>
       </div>
