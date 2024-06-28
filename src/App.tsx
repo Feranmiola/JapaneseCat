@@ -1,5 +1,6 @@
 
 // import About from './Components/About'
+import { useEffect, useState } from 'react'
 import About from './Components/About'
 import Footer from './Components/Footer'
 import Home from './Components/Home'
@@ -7,8 +8,36 @@ import Roadmap from './Components/Roadmap'
 import Socials from './Components/Socials'
 import Tokenomics from './Components/Tokenomics'
 import './globals.css'
+import { HashLoader } from 'react-spinners'
 
 function App() {
+
+  const [loading, setLoading] = useState(true);
+  const imageUrls = ['./assets/fullBackground.svg'];
+    useEffect(() => {
+        let loadedImages = 0;
+
+        imageUrls.forEach((url) => {
+            const img = new Image();
+            img.src = url;
+            img.onload = () => {
+                loadedImages++;
+                if (loadedImages === imageUrls.length) {
+                    setLoading(false);
+                }
+            };
+        });
+    }, [imageUrls]);
+
+
+
+if(loading){
+    return (
+        <div className='w-screen h-screen bg-white flex items-center justify-center minw-[100vh]'>
+          <HashLoader color="#ac0707" />
+        </div>
+      );
+}
   
 
   return (
