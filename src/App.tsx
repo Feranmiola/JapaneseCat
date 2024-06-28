@@ -101,7 +101,7 @@ if(loading){
       </div>
     </div>
 
-    <div className='lg:hidden fullBGSmall flex flex-col mt-[1rem] w-full  h-[4848px]'>
+    <div className='lg:hidden fullBGSmall flex flex-col mt-[1rem] w-full  h-[4840px]'>
       <div id='Home' className='absolute w-full top-0'>
         <Home/>
       </div>
@@ -115,13 +115,14 @@ if(loading){
         <div className='absolute w-full mt-[179rem] pt-[20rem]' id='community'>
           <Socials/>
         </div>
-        <div className='w-full h-full absolute mt-[227rem] py-[20rem]' id='Roadmap'>
+        <div className='w-full h-full absolute mt-[227rem] pt-[20rem]' id='Roadmap'>
           <Roadmap/>
         </div>
       </div>
     </div>
-
-    <Footer/>
+    <div className='mt-[-25px]'>
+      <Footer/>
+    </div>
    </div>
   )
 }
