@@ -160,7 +160,7 @@ if(loading){
         <div className='absolute w-full mt-[120rem] pt-[20rem]' id='Tokenomics'>
           <Tokenomics/>
         </div>
-        <div className='w-full h-full absolute mt-[236rem] py-[20rem]' id='Roadmap'>
+        <div className='w-full h-full absolute mt-[226rem] py-[20rem]' id='Roadmap'>
           <Roadmap/>
         </div>
         <div className='absolute w-full mt-[179rem] pt-[20rem]' id='community'>
