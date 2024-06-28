@@ -118,7 +118,7 @@ if(loading){
         <div className='flex flex-col space-y-10 w-full items-center pt-20 h-full justify-center'>
           <div className='flex flex-col space-y-10 items-center'>
             <a onClick={handleMobileDropdown} href='#HomeM' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>HOME</a>
-            <a onClick={handleMobileDropdown} href='#AbouMt' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ABOUT</a>
+            <a onClick={handleMobileDropdown} href='#AboutM' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ABOUT</a>
             <a onClick={handleMobileDropdown} href='#TokenomicsM' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>TOKENOMICS</a>
             <a onClick={handleMobileDropdown} href='#RoadmapM' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ROADMAP</a>
           </div>
@@ -174,16 +174,16 @@ if(loading){
         <Home/>
       </div>
       <div className='relative'>
-        <div className='absolute mt-[56rem] pt-[35rem] w-full' id='AboutM'>
+        <div className='absolute mt-[76rem] pt-[15rem] w-full' id='AboutM'>
           <About/>
         </div>
-        <div className='absolute w-full mt-[115rem] pt-[20rem]' id='TokenomicsM'>
+        <div className='absolute w-full mt-[125rem] pt-[10rem]' id='TokenomicsM'>
           <Tokenomics/>
         </div>
         <div className='absolute w-full mt-[179rem] pt-[20rem]' id='CommunityM'>
           <Socials/>
         </div>
-        <div className='w-full h-full absolute mt-[227rem] pt-[20rem]' id='RoadmapM'>
+        <div className='w-full h-full absolute mt-[237rem] pt-[10rem]' id='RoadmapM'>
           <Roadmap/>
         </div>
       </div>
