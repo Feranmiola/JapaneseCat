@@ -62,7 +62,7 @@ function App() {
 if(loading){
     return (
         <div className='w-screen h-screen bg-white flex items-center justify-center minw-[100vh]'>
-          <HashLoader color="#ac0707" />
+          <HashLoader color="#EB0000" />
         </div>
       );
 }
@@ -77,10 +77,10 @@ if(loading){
         />
 
         <div className='flex flex-row items-center ml-20 justify-center space-x-14'>
-        <a onClick={handleMobileDropdown} href="#Home" className="font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">HOME</a>
-            <a onClick={handleMobileDropdown} href="#About" className="font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">ABOUT</a>
-            <a onClick={handleMobileDropdown} href="#Tokenomics" className="font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">TOKENOMICS</a>
-            <a onClick={handleMobileDropdown} href="#Roadmap" className="font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">ROADMAP</a>
+          <a href="#Home" className="font-inter text-[14px] text-black tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">HOME</a>
+          <a href="#About" className="font-inter text-[14px] text-black tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">ABOUT</a>
+          <a href="#Tokenomics" className="font-inter text-[14px] text-black tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">TOKENOMICS</a>
+          <a href="#Roadmap" className="font-inter text-[14px] text-black tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">ROADMAP</a>
         </div>
 
         <a href='#community' className=' bg-headerText'>
