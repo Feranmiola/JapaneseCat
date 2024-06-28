@@ -64,7 +64,7 @@ if(loading){
 
     </div>
 
-    <div className='w-full fixed z-50 top-0 bg-[#F8F8F8]'>
+    <div className='w-full fixed z-50 lg:hidden top-0 bg-[#F8F8F8]'>
       <div className='w-full  flex flex-row justify-between items-center  p-5'>
         <img
           src='./assets/catSmall.svg'
