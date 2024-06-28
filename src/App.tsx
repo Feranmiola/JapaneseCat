@@ -14,20 +14,33 @@ function App() {
 
   const [loading, setLoading] = useState(true);
   const imageUrls = ['./assets/fullBackground.svg'];
+  const imageUrlsMobile = ['./assets/fullBackgroundSmall.svg'];
     useEffect(() => {
         let loadedImages = 0;
-
-        imageUrls.forEach((url) => {
+        if(window.innerWidth >= 768 ){
+            imageUrls.forEach((url) => {
+              const img = new Image();
+              img.src = url;
+              img.onload = () => {
+                  loadedImages++;
+                  if (loadedImages === imageUrls.length) {
+                      setLoading(false);
+                  }
+              };
+          });
+        }else{
+          imageUrlsMobile.forEach((url) => {
             const img = new Image();
             img.src = url;
             img.onload = () => {
                 loadedImages++;
-                if (loadedImages === imageUrls.length) {
+                if (loadedImages === imageUrlsMobile.length) {
                     setLoading(false);
                 }
             };
         });
-    }, [imageUrls]);
+        }
+    }, [imageUrls, imageUrlsMobile]);
 
 
 
