@@ -2,7 +2,7 @@
 
 const Socials = () => {
     return (
-      <div className="absolute w-full pt-[199rem]">
+      <div className="w-full">
           <div className="flex items-center justify-center">
               <div className="flex flex-col items-center space-y-[1px] justify-center">
                   <div className="flex flex-row items-center w-full justify-center space-x-[1px]">

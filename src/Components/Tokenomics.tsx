@@ -1,7 +1,7 @@
 
 const Tokenomics = () => {
     return (
-      <div className="absolute w-full pt-[140rem]">
+      <div className="w-full">
           <div className="flex flex-col items-center justify-center">
               <p className="font-electroharmonix text-[48px] text-goldText">TOKENOMICS</p>
               <div className="flex flex-col items-center justify-center pt-10">

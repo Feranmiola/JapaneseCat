@@ -1,9 +1,9 @@
 
 const Roadmap = () => {
     return (
-      <div className="w-full h-full absolute pt-[236rem]">
+      <div className="">
   
-          <div className="py-[20rem]">
+          <div className="">
               <div className="flex  flex-col space-y-20 items-center justify-center">
                   <p className="font-electroharmonix text-[48px] text-headerText">ROADMAP</p>
                   <div className="flex flex-col  items-center justify-center space-y-5">
