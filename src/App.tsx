@@ -64,7 +64,7 @@ if(loading){
 
     </div>
 
-    <div className='w-full fixed top-0 bg-[#F8F8F8]'>
+    <div className='w-full fixed z-50 top-0 bg-[#F8F8F8]'>
       <div className='w-full  flex flex-row justify-between items-center  p-5'>
         <img
           src='./assets/catSmall.svg'
@@ -101,15 +101,15 @@ if(loading){
       </div>
     </div>
 
-    <div className='lg:hidden fullBGSmall flex flex-col mt-[1rem] w-full h-[4848px]'>
+    <div className='lg:hidden fullBGSmall flex flex-col mt-[1rem] w-full  h-[4848px]'>
       <div id='Home' className='absolute w-full top-0'>
         <Home/>
       </div>
       <div className='relative'>
-        <div className='absolute mt-[45rem] pt-[35rem] w-full' id='About'>
+        <div className='absolute mt-[56rem] pt-[35rem] w-full' id='About'>
           <About/>
         </div>
-        <div className='absolute w-full mt-[90rem] pt-[20rem]' id='Tokenomics'>
+        <div className='absolute w-full mt-[115rem] pt-[20rem]' id='Tokenomics'>
           <Tokenomics/>
         </div>
         <div className='absolute w-full mt-[179rem] pt-[20rem]' id='community'>
