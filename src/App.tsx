@@ -17,6 +17,16 @@ function App() {
   const handleMobileDropdown = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   }
+
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+  }, [isMobileMenuOpen]);
+
+
   const [loading, setLoading] = useState(true);
   const imageUrls = ['./assets/fullBackground.svg'];
   const imageUrlsMobile = ['./assets/fullBackgroundSmall.svg'];
@@ -67,10 +77,10 @@ if(loading){
         />
 
         <div className='flex flex-row items-center ml-20 justify-center space-x-14'>
-          <a href='#Home' className='font-inter  text-[14px] text-black tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>HOME</a>
-          <a href='#About' className='font-inter  text-[14px] text-black tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ABOUT</a>
-          <a href='#Tokenomics' className='font-inter  text-[14px] text-black tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>TOKENOMICS</a>
-          <a href='#Roadmap' className='font-inter  text-[14px] text-black tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ROADMAP</a>
+        <a onClick={handleMobileDropdown} href="#Home" className="font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">HOME</a>
+            <a onClick={handleMobileDropdown} href="#About" className="font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">ABOUT</a>
+            <a onClick={handleMobileDropdown} href="#Tokenomics" className="font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">TOKENOMICS</a>
+            <a onClick={handleMobileDropdown} href="#Roadmap" className="font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out">ROADMAP</a>
         </div>
 
         <a href='#community' className=' bg-headerText'>
@@ -107,10 +117,10 @@ if(loading){
     <div className={`dropdown-menu ${isMobileMenuOpen ? 'slide-in' : 'slide-out'}`}>
         <div className='flex flex-col space-y-10 w-full items-center pt-20 h-full justify-center'>
           <div className='flex flex-col space-y-10 items-center'>
-            <a onClick={handleMobileDropdown} href='#Home' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>HOME</a>
-            <a onClick={handleMobileDropdown} href='#About' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ABOUT</a>
-            <a onClick={handleMobileDropdown} href='#Tokenomics' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>TOKENOMICS</a>
-            <a onClick={handleMobileDropdown} href='#Roadmap' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ROADMAP</a>
+            <a onClick={handleMobileDropdown} href='#HomeM' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>HOME</a>
+            <a onClick={handleMobileDropdown} href='#AbouMt' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ABOUT</a>
+            <a onClick={handleMobileDropdown} href='#TokenomicsM' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>TOKENOMICS</a>
+            <a onClick={handleMobileDropdown} href='#RoadmapM' className='font-inter text-[20px] text-white tracking-[0.2rem] cursor-pointer hover:text-[#EB0000] transition ease-in-out'>ROADMAP</a>
           </div>
           <div className='w-full'>
             <div className="w-screen flex items-center justify-center">
@@ -160,20 +170,20 @@ if(loading){
     </div>
 
     <div className='md:hidden fullBGSmall flex flex-col mt-[1rem] w-full  h-[4840px]'>
-      <div id='Home' className='absolute w-full top-0'>
+      <div id='HomeM' className='absolute w-full top-0'>
         <Home/>
       </div>
       <div className='relative'>
-        <div className='absolute mt-[56rem] pt-[35rem] w-full' id='About'>
+        <div className='absolute mt-[56rem] pt-[35rem] w-full' id='AboutM'>
           <About/>
         </div>
-        <div className='absolute w-full mt-[115rem] pt-[20rem]' id='Tokenomics'>
+        <div className='absolute w-full mt-[115rem] pt-[20rem]' id='TokenomicsM'>
           <Tokenomics/>
         </div>
-        <div className='absolute w-full mt-[179rem] pt-[20rem]' id='community'>
+        <div className='absolute w-full mt-[179rem] pt-[20rem]' id='CommunityM'>
           <Socials/>
         </div>
-        <div className='w-full h-full absolute mt-[227rem] pt-[20rem]' id='Roadmap'>
+        <div className='w-full h-full absolute mt-[227rem] pt-[20rem]' id='RoadmapM'>
           <Roadmap/>
         </div>
       </div>
