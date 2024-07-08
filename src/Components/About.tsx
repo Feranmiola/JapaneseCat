@@ -7,7 +7,7 @@ const About = () => {
             <div className="flex flex-col space-y-[15rem] max-sm:space-y-10 items-center justify-center">
                 <div className="flex flex-col items-center justify-center space-y-2">
                     <p className="font-electroharmonix max-lg:text-[32px] max-sm:w-[230px] max-sm:text-center text-[48px] text-goldText">About Japanese Cat</p>
-                    <p className="text-[16px] max-lg:text-[14px] text-white w-[753px] max-sm:w-[285px] max-sm:tracking-[0.2rem] text-center font-thin tracking-[10%]">MEET MANEKI NEKO, THE ICONIC JAPANESE LUCKY CAT! KNOWN FOR ITS BECKONING PAW, MANEKI NEKO IS BELIEVED TO BRING GOOD FORTUNE AND PROSPERITY. THIS CHARMING FELINE IS SET TO BECOME THE FACE OF A REVOLUTIONARY NEW TOKEN, CAPTURING THE ESSENCE OF LUCK AND SUCCESS.</p>
+                    <p className="text-[16px] max-lg:text-[14px] text-white w-[753px] max-sm:w-[285px] max-sm:tracking-[0.2rem] text-center font-thin tracking-[10%]">MEET ROUGE, THE ICONIC CAT FROM THE JAPANESE ANIME AND MANGA SERIES, BLACK CLOVER KNOWN FOR ITS FATE CHANGING TOUCH WITH ITS PAWS. ROUGE HAS TURNED THE TIDES OF COUNTLESS BATTLES FOR HER OWNER VANESSA AND MEMBERS OF THE BLACK BULL SQUAD. NOW SHE’S BECOME THE FACE OF THIS NEW TOKEN CAPTURING THE ESSENCE OF LUCK, SUCCESS AND GOOD FATE.</p>
                 </div>
 
                 <img

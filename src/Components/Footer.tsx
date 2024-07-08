@@ -15,12 +15,12 @@ const Footer = () => (
                                     src="./assets/telegramIcon.svg" />
                                 <p className="text-[20px] tracking-[0.2rem]">TELEGRAM</p>
                             </div>
-                            <div className="w-[582.5px] flex items-center py-7 flex-row space-x-5 justify-center">
+                            <a href="https://x.com/RedJapaneseCat" target="blank" className="w-[582.5px] flex items-center py-7 flex-row space-x-5 justify-center">
                                 <img
                                     src="./assets/xicon.svg" />
                                 <p className="text-[20px] tracking-[0.2rem]">X (TWITTER)</p>
 
-                            </div>
+                            </a>
 
                         </div>
 
@@ -49,13 +49,13 @@ const Footer = () => (
                     </div>
                 </div>
 
-                <div className="bg-[#FFF6DC]">
+                <a href="https://x.com/RedJapaneseCat" target="blank" className="bg-[#FFF6DC]">
                     <div className="py-10 px-5 flex flex-row items-center space-x-2 justify-center">
                         <img
                             src="./assets/xicon.svg" />
                         <p className="text-[20px] tracking-[0.2rem]">X (TWITTER)</p>
                     </div>
-                </div>
+                </a>
                 
 
             </div>

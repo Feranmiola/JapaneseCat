@@ -12,7 +12,7 @@ const Home = () => {
         
         <div className="flex flex-col space-y-5 items-center justify-center py-5">
             <p className=" text-textDark font-inter text-[19px]">FORTUNE BECKONS</p>
-            <p className="text=textDark font-inter w-[572px] text-center max-lg:w-[306px] tracking-widest text-[12px]">UNLOCK ENDLESS PROSPERITY WITH THE JAPANESE CAT TOKEN! INSPIRED BY THE ICONIC JAPANESE MANEKI NEKO CAT, THIS TOKEN WILL BRING LUCK, WEALTH, AND HAPPINESS TO ITS HOLDERS.</p>
+            <p className="text=textDark font-inter w-[572px] text-center max-lg:w-[306px] tracking-widest text-[12px]">INSPIRED BY ROUGE, VANESSA'S FATE CHANGING CAT FROM THE BLACK CLOVER ANIME & MANGA SERIES, THIS TOKEN BRINGS LUCK, WEALTH, AND HAPPINESS TO ALL ITS HOLDERS!</p>
         </div>
 
 
