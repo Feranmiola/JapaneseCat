@@ -37,7 +37,7 @@ const Footer = () => (
                 <div className="bg-[#FFF6DC]">
                     <div className="py-10 px-5 flex flex-col space-y-2 items-center justify-center">
                         <p className="text-[#BB1605] text-[95%] leading-none font-medium tracking-[0.2rem]">FOLLOW THE LUCKY CAT</p>
-                        <p className="text-[60%] w-[80%] text-center tracking-[0.2rem]">STAY CONNECTED WITH ENDLESS FORTUNE AND OPPIRTUNITES</p>
+                        <p className="text-[60%] w-[80%] text-center tracking-[0.2rem]">STAY CONNECTED WITH ENDLESS FORTUNE AND OPPORTUNITES</p>
                     </div>
                 </div>
 
