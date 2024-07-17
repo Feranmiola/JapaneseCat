@@ -10,11 +10,11 @@ const Footer = () => (
                             <p className="text-[16px] tracking-[0.2rem]">STAY CONNECTED WITH ENDLESS FORTUNE AND OPPORTUNITES</p>
                         </div>
                         <div className="flex flex-row h-full">
-                            <div className="w-[582.5px] flex items-center py-8 border-r-[1px] border-tokenomicsBg flex-row space-x-5 justify-center">
+                            <a href="https://t.me/redjapanesecat" target="blank" className="w-[582.5px] flex items-center py-8 border-r-[1px] border-tokenomicsBg flex-row space-x-5 justify-center">
                                 <img
                                     src="./assets/telegramIcon.svg" />
                                 <p className="text-[20px] tracking-[0.2rem]">TELEGRAM</p>
-                            </div>
+                            </a>
                             <a href="https://x.com/RedJapaneseCat" target="blank" className="w-[582.5px] flex items-center py-7 flex-row space-x-5 justify-center">
                                 <img
                                     src="./assets/xicon.svg" />
@@ -41,13 +41,13 @@ const Footer = () => (
                     </div>
                 </div>
 
-                <div className="bg-[#FFF6DC]">
+                <a href="https://t.me/redjapanesecat" target="blank" className="bg-[#FFF6DC]">
                     <div className="py-10 px-5 flex flex-row items-center space-x-2 justify-center">
                         <img
                             src="./assets/telegramIcon.svg" />
                         <p className="text-[20px] tracking-[0.2rem]">TELEGRAM</p>
                     </div>
-                </div>
+                </a>
 
                 <a href="https://x.com/RedJapaneseCat" target="blank" className="bg-[#FFF6DC]">
                     <div className="py-10 px-5 flex flex-row items-center space-x-2 justify-center">
@@ -56,7 +56,7 @@ const Footer = () => (
                         <p className="text-[20px] tracking-[0.2rem]">X (TWITTER)</p>
                     </div>
                 </a>
-                
+
 
             </div>
 
