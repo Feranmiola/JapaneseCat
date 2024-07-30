@@ -1,7 +1,7 @@
 
 const Roadmap = () => {
     return (
-        <div className="bg-[#FFF6DC]  mt-[30rem] mb-[13rem]">
+        <div className="pt-[10rem] xl:pt-[20rem] 2xl:pt-[15rem] mb-[13rem] 2xl:mb-[17rem]">
 
             <div className=" relative">
                 <div className="flex  flex-col space-y-20 items-center justify-center">
@@ -50,7 +50,7 @@ const Roadmap = () => {
                     </div>
 
                 </div>
-                <div className="absolute top-[50rem] w-full">
+                <div className="absolute top-[50rem] xl:top-[48rem] 2xl:top-[49rem] w-full">
                     <img
                         src="./assets/roadmapBottom.svg"
                         className="  w-full"
