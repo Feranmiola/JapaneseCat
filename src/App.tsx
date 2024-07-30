@@ -13,8 +13,8 @@ import { HashLoader } from 'react-spinners'
 function App() {
 
   const [loading, setLoading] = useState(true);
-  const imageUrls = ['./assets/fullBackground.svg'];
-  const imageUrlsMobile = ['./assets/fullBackgroundSmall.svg'];
+  const imageUrls = ['./assets/catLeft.svg', './assets/catRight.svg', './assets/chineseHouseBG.svg', './assets/homeBottom.svg'];
+  const imageUrlsMobile = ['./assets/catRight.svg', './assets/homeBGMobile.svg', './assets/homeBottomMobile.svg'];
   useEffect(() => {
     let loadedImages = 0;
     if (window.innerWidth >= 768) {
