@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        <div className="w-screen max-sm:h-[900px] bg-white h-[1152px] 2xl:h-screen xl:h-[1300px]">
+        <div className="w-screen max-sm:h-[900px] bg-white h-[1152px] 2xl:h-[1800px] xl:h-[1300px]">
             <div className="flex items-center w-full flex-col justify-center pt-[12rem] xl:pt-[20rem]">
                 <p className="text-[#444444] font-inter max-sm:text-center max-sm:w-[207px] text-[32px] max-sm:text-[18px] xl:text-[36px] 2xl:text-[64px]">GROW YOUR WEALTH WITH FORTUNE TAP</p>
                 <p className="font-electroharmonix max-sm:w-[358px] max-sm:text-center text-[150px] text-headerText max-lg:text-[64px] xl:text-[170px] 2xl:text-[250px] text-center leading-none">Japanese Cat</p>
