@@ -17,23 +17,26 @@ module.exports = {
       },
     },
     extend: {
-      backgroundImage:{
-        'section' : "url('/assets/aboutBackground.svg')",
-        'aboutBG' : "url('/assets/aboutBG.svg')",
-        'fullbg' : "url('/assets/fullBackground.svg')",
+      backgroundImage: {
+        'section': "url('/assets/aboutBackground.svg')",
+        'aboutBG': "url('/assets/aboutBG.svg')",
+        'fullbg': "url('/assets/fullBackground.svg')",
 
+      },
+      boxShadow: {
+        'custom-normal': '0px 0px 20.4px 0px #E6322C1F',
       },
       fontFamily: {
         "electroharmonix": ['Electroharmonix'],
         "inter": ['Inter', 'sans-serif'],
       },
       colors: {
-        "headerText" : "#EB0000",
-        "goldText" : "#DFB850",
-        "roadmapBG" : "#FFF6DC",
-        "roadmapBorder" : "#BB1605",
-        "tokenomicsBg" : "#BB1605",
-        "textDark" : "#616161",
+        "headerText": "#EB0000",
+        "goldText": "#DFB850",
+        "roadmapBG": "#FFF6DC",
+        "roadmapBorder": "#BB1605",
+        "tokenomicsBg": "#BB1605",
+        "textDark": "#616161",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
