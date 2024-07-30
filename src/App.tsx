@@ -1,12 +1,12 @@
 
 // import About from './Components/About'
 import { useEffect, useState } from 'react'
-import About from './Components/About'
+// import About from './Components/About'
 import Footer from './Components/Footer'
 import Home from './Components/Home'
 import Roadmap from './Components/Roadmap'
-import Socials from './Components/Socials'
-import Tokenomics from './Components/Tokenomics'
+// import Socials from './Components/Socials'
+// import Tokenomics from './Components/Tokenomics'
 import './globals.css'
 import { HashLoader } from 'react-spinners'
 
@@ -143,7 +143,7 @@ function App() {
       </div> */}
 
 
-      <div className='max-md:hidden flex flex-col  w-full'>
+      <div className=' flex flex-col w-full'>
         <div id='Home' className=' w-full '>
           <Home />
         </div>
@@ -163,7 +163,7 @@ function App() {
         {/* </div> */}
       </div>
 
-      <div className='md:hidden fullBGSmall flex flex-col mt-[1rem] w-full  h-[4840px]'>
+      {/* <div className='md:hidden fullBGSmall flex flex-col mt-[1rem] w-full  h-[4840px]'>
         <div id='HomeM' className='absolute w-full top-0'>
           <Home />
         </div>
@@ -181,7 +181,7 @@ function App() {
             <Roadmap />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className='w-full'>
         <Footer />
       </div>

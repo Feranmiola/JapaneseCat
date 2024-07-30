@@ -24,12 +24,7 @@ module.exports = {
         'xl': '1980px',
         '2xl': '2426px',
       },
-      backgroundImage: {
-        'section': "url('/assets/aboutBackground.svg')",
-        'aboutBG': "url('/assets/aboutBG.svg')",
-        'fullbg': "url('/assets/fullBackground.svg')",
 
-      },
       boxShadow: {
         'custom-normal': '0px 0px 20.4px 0px #E6322C1F',
       },
