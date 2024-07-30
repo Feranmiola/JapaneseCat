@@ -16,13 +16,13 @@ const Home = () => {
 
             <div className="relative w-full pt-10 max-sm:pt-[14rem]">
                 <div className="absolute w-full flex justify-between">
-                    <img src="./assets/catLeft.svg" className="relative max-md:hidden bottom-56 md:bottom-40 lg:bottom-48 xl:bottom-[7rem] 2xl:bottom-[2rem]" />
-                    <img src="./assets/catRight.svg" className="relative max-md:pl-[15rem] max-sm:bottom-[6.5rem] bottom-56 md:bottom-40 lg:bottom-60 xl:bottom-[13rem] 2xl:bottom-[5rem]" />
+                    <img src="./assets/catLeft.svg" className="relative 3xl:w-[687px] 3xl:h-[804px] 3xl:bottom-[5rem]  max-md:hidden bottom-56 md:bottom-40 lg:bottom-48 xl:bottom-[7rem] 2xl:bottom-[2rem]" />
+                    <img src="./assets/catRight.svg" className="relative 4xl:bottom-[8rem] 3xl:w-[720px] 3xl:bottom-[13rem] 3xl:h-[786px] max-md:pl-[15rem] max-sm:bottom-[6.5rem] bottom-56 md:bottom-40 lg:bottom-60 xl:bottom-[13rem] 2xl:bottom-[5rem]" />
                 </div>
                 <img src="./assets/chineseHouseBG.svg" className="w-full absolute max-md:hidden" />
                 <img src="./assets/homeBGMobile.svg" className="w-full absolute top-[9.5rem] md:hidden" />
 
-                <img src="./assets/homeBottom.svg" className="relative max-md:hidden xl:top-[30rem] 2xl:top-[37rem] top-[25rem] w-full" />
+                <img src="./assets/homeBottom.svg" className="relative 4xl:top-[60rem] 3xl:top-[49rem] max-md:hidden xl:top-[30rem] 2xl:top-[37rem] top-[25rem] w-full" />
                 <img src="./assets/homeBottomMobile.svg" className="relative md:hidden top-[7rem] w-full" />
             </div>
         </div>

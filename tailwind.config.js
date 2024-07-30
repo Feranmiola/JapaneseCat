@@ -23,6 +23,8 @@ module.exports = {
         'lg': '1024px',
         'xl': '1980px',
         '2xl': '2426px',
+        '3xl': '3226px',
+        '4xl': '4026px',
       },
 
       boxShadow: {

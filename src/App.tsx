@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className='flex flex-col items-center justify-center'>
-      <div className="flex w-full max-w-[684px] max-sm:max-w-[310px] max-sm:max-h-[64px] h-[80px] bg-white items-center shadow-custom-normal rounded-[24px] justify-center fixed top-5 z-50 mx-2 md:mx-auto xl:max-w-[800px] xl:h-[100px] 2xl:max-w-[900px] 2xl:h-[120px]">
+      <div className="flex w-full max-w-[684px] 3xl:scale-150 3xl:top-16 max-sm:max-w-[310px] max-sm:max-h-[64px] h-[80px] bg-white items-center shadow-custom-normal rounded-[24px] justify-center fixed top-5 z-50 mx-2 md:mx-auto xl:max-w-[800px] xl:h-[100px] 2xl:max-w-[900px] 2xl:h-[120px]">
         <div className="flex flex-row relative w-full h-full p-5 items-center justify-between">
           <img src="./assets/catSmall.svg" className="w-8 h-8 md:w-auto md:h-auto xl:w-12 xl:h-12 2xl:w-16 2xl:h-16" />
           <div className="PlayNowButtonMAX hidden md:block absolute left-1/2 transform -translate-x-1/2 rounded-[8px] cursor-pointer">
