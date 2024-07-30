@@ -50,7 +50,7 @@ const Roadmap = () => {
                     </div>
 
                 </div>
-                <div className="absolute max-md:hidden 3xl:top-[65rem] top-[50rem] xl:top-[48rem] 2xl:top-[49rem] w-full">
+                <div className="absolute max-md:hidden 3xl:top-[65rem] top-[50rem] max-lg:top-[55rem] xl:top-[48rem] 2xl:top-[49rem] w-full">
                     <img
                         src="./assets/roadmapBottom.svg"
                         className="  w-full"

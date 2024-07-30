@@ -102,6 +102,12 @@ body {
   background-color: #FFF6DC;
 }
 
+.snallSoecs {
+  width: 199.84px;
+  height: 304px;
+
+}
+
 .aboutBG {
   background-image: url('./assets/aboutBG.svg');
   background-position: center;

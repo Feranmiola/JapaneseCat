@@ -1,7 +1,7 @@
 
 const Footer = () => (
     <>
-        <div className="bg-tokenomicsBg h-[676px] xl:h-[800px] 2xl:h-[1000px] 5xl:h-[1200px] w-full max-md:hidden">
+        <div className="bg-tokenomicsBg h-[676px] xl:h-[800px] 2xl:h-[1000px] 5xl:h-[1200px] w-full max-lg:hidden">
             <div className="flex items-center pt-20 2xl:pt-[20rem] justify-center h-full">
                 <div className="bg-roadmapBG w-[1166px] h-[241px] xl:w-[1366px] xl:h-[300px] 2xl:w-[1536px] 2xl:h-[350px]">
                     <div className="flex flex-col items-center justify-between">
@@ -24,7 +24,7 @@ const Footer = () => (
             </div>
         </div>
 
-        <div className="bg-tokenomicsBg w-screen max-sm:h-[700px] md:hidden flex items-center justify-center">
+        <div className="bg-tokenomicsBg w-screen max-sm:h-[700px] max-lg:h-[700px]  lg:hidden flex items-center justify-center">
             <div className="flex flex-col space-y-[1px] p-10 pt-[5rem]">
                 <div className="bg-[#FFF6DC]">
                     <div className="py-10 px-5 flex flex-col space-y-2 items-center justify-center">
