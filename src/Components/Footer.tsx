@@ -1,8 +1,8 @@
 
 const Footer = () => (
     <>
-        <div className=" bg-tokenomicsBg h-[447px] w-full max-lg:hidden">
-            <div className="flex items-center justify-center  h-full ">
+        <div className=" bg-tokenomicsBg h-[676px] w-full max-lg:hidden">
+            <div className="flex items-center pt-20 justify-center  h-full ">
                 <div className="bg-roadmapBG w-[1166px] h-[241px]">
                     <div className="flex flex-col items-center justify-between">
                         <div className="border-b-[1px] border-tokenomicsBg w-full items-center justify-center flex flex-col py-10">

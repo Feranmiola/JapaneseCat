@@ -5,10 +5,10 @@ const Home = () => {
             <div className="flex items-center flex-col justify-center pt-[12rem]">
                 <p className=" text-[#444444] font-inter text-[32px]">GROW YOUR WEALTH WITH FORTUNE TAP</p>
                 <p className=" font-electroharmonix text-[150px] text-headerText  max-lg:text-[64px] text-center leading-none ">Japanese Cat</p>
-                {/* <img
-            src="./assets/jcBG.svg"
-            className="absolute pt-[8rem]"
-            /> */}
+                <img
+                    src="./assets/jcBG.svg"
+                    className="absolute pt-[8rem]"
+                />
             </div>
 
             <div className="flex flex-col space-y-5 items-center justify-center py-5">

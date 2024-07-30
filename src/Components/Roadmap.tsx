@@ -1,9 +1,9 @@
 
 const Roadmap = () => {
     return (
-        <div className="bg-[#FFF6DC] mt-[30rem] pb-10">
+        <div className="bg-[#FFF6DC]  mt-[30rem] mb-[13rem]">
 
-            <div className="">
+            <div className=" relative">
                 <div className="flex  flex-col space-y-20 items-center justify-center">
                     <p className="font-electroharmonix text-[48px] text-headerText max-lg:test-[32px]">ROADMAP</p>
                     <div className="flex flex-col  items-center justify-center space-y-5">
@@ -50,9 +50,12 @@ const Roadmap = () => {
                     </div>
 
                 </div>
-            </div>
-            <div className="absolute">
-
+                <div className="absolute top-[50rem] w-full">
+                    <img
+                        src="./assets/roadmapBottom.svg"
+                        className="  w-full"
+                    />
+                </div>
             </div>
 
         </div>
