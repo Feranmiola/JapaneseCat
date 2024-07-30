@@ -21,10 +21,11 @@ module.exports = {
         'sm': '640px',
         'md': '768px',
         'lg': '1024px',
-        'xl': '1980px',
+        'xl': '1920px',
         '2xl': '2426px',
         '3xl': '3226px',
         '4xl': '4026px',
+        '5xl': '4426px',
       },
 
       boxShadow: {

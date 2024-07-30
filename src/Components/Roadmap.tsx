@@ -1,7 +1,7 @@
 
 const Roadmap = () => {
     return (
-        <div className="pt-[10rem] 4xl:pt-[53rem] 3xl:pt-[37rem] 3xl:mb-[25rem] max-sm:pt-[12rem] xl:pt-[20rem] 2xl:pt-[15rem] mb-[13rem] 2xl:mb-[17rem]">
+        <div className="pt-[10rem] 4xl:pt-[53rem] 3xl:pt-[37rem] 3xl:mb-[25rem] max-sm:pt-[12rem] xl:pt-[20rem] 2xl:pt-[15rem] mb-[13rem] 2xl:mb-[17rem] 5xl:pt-[60rem]">
 
             <div className=" relative">
                 <div className="flex  flex-col space-y-20 items-center justify-center">
@@ -50,7 +50,7 @@ const Roadmap = () => {
                     </div>
 
                 </div>
-                <div className="absolute max-md:hidden 3xl:top-[62rem] top-[50rem] xl:top-[48rem] 2xl:top-[49rem] w-full">
+                <div className="absolute max-md:hidden 3xl:top-[65rem] top-[50rem] xl:top-[48rem] 2xl:top-[49rem] w-full">
                     <img
                         src="./assets/roadmapBottom.svg"
                         className="  w-full"

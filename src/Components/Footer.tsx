@@ -1,7 +1,7 @@
 
 const Footer = () => (
     <>
-        <div className="bg-tokenomicsBg h-[676px] xl:h-[800px] 2xl:h-[1000px] w-full max-md:hidden">
+        <div className="bg-tokenomicsBg h-[676px] xl:h-[800px] 2xl:h-[1000px] 5xl:h-[1200px] w-full max-md:hidden">
             <div className="flex items-center pt-20 2xl:pt-[20rem] justify-center h-full">
                 <div className="bg-roadmapBG w-[1166px] h-[241px] xl:w-[1366px] xl:h-[300px] 2xl:w-[1536px] 2xl:h-[350px]">
                     <div className="flex flex-col items-center justify-between">
