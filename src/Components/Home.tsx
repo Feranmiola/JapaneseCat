@@ -3,7 +3,7 @@ const Home = () => {
         <div className="w-screen bg-white h-[1152px] 2xl:h-screen xl:h-[1300px]">
             <div className="flex items-center flex-col justify-center pt-[12rem] xl:pt-[20rem]">
                 <p className="text-[#444444] font-inter text-[32px] xl:text-[36px] 2xl:text-[64px]">GROW YOUR WEALTH WITH FORTUNE TAP</p>
-                <p className="font-electroharmonix text-[150px] text-headerText max-lg:text-[64px] xl:text-[140px] 2xl:text-[250px] text-center leading-none">Japanese Cat</p>
+                <p className="font-electroharmonix text-[150px] text-headerText max-lg:text-[64px] xl:text-[170px] 2xl:text-[250px] text-center leading-none">Japanese Cat</p>
                 <img src="./assets/jcBG.svg" className="absolute pt-[8rem]" />
             </div>
 
