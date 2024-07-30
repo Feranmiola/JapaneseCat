@@ -98,6 +98,9 @@ html {
   /* For Internet Explorer and Edge */
 }
 
+body {
+  background-color: #FFF6DC;
+}
 
 .aboutBG {
   background-image: url('./assets/aboutBG.svg');

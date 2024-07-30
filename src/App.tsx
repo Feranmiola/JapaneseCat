@@ -147,24 +147,24 @@ function App() {
       </div> */}
 
 
-      <div className='fullBG max-md:hidden flex flex-col mt-[1rem] w-full h-[4848px]'>
-        <div id='Home' className='absolute w-full top-0'>
+      <div className='max-md:hidden flex flex-col  w-full'>
+        <div id='Home' className=' w-full '>
           <Home />
         </div>
-        <div className='relative'>
-          <div className='absolute mt-[65rem] pt-[35rem] w-full' id='About'>
+        {/* <div className='relative'> */}
+        {/* <div className='absolute mt-[65rem] pt-[35rem] w-full' id='About'>
             <About />
           </div>
           <div className='absolute w-full mt-[120rem] pt-[20rem]' id='Tokenomics'>
             <Tokenomics />
-          </div>
-          <div className='w-full h-full absolute mt-[226rem] py-[20rem]' id='Roadmap'>
-            <Roadmap />
-          </div>
-          <div className='absolute w-full mt-[179rem] pt-[20rem]' id='community'>
-            <Socials />
-          </div>
+          </div> */}
+        <div className='w-full h-full ' id='Roadmap'>
+          <Roadmap />
         </div>
+        {/* <div className='absolute w-full mt-[179rem] pt-[20rem]' id='community'>
+            <Socials />
+          </div> */}
+        {/* </div> */}
       </div>
 
       <div className='md:hidden fullBGSmall flex flex-col mt-[1rem] w-full  h-[4840px]'>
@@ -186,7 +186,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='mt-[-25px] w-full'>
+      <div className='w-full'>
         <Footer />
       </div>
     </div>
