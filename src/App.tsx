@@ -58,8 +58,8 @@ function App() {
       <div className="flex w-full max-w-[684px] 3xl:scale-150 3xl:top-16 max-sm:max-w-[310px] max-sm:max-h-[64px] h-[80px] bg-white items-center shadow-custom-normal rounded-[24px] justify-center fixed top-5 z-50 mx-2 md:mx-auto xl:max-w-[800px] xl:h-[100px] 2xl:max-w-[900px] 2xl:h-[120px]">
         <div className="flex flex-row relative w-full h-full p-5 items-center justify-between">
           <img src="./assets/catSmall.svg" className="w-8 h-8 md:w-auto md:h-auto xl:w-12 xl:h-12 2xl:w-16 2xl:h-16" />
-          <div className="PlayNowButtonMAX hidden md:block absolute left-1/2 transform -translate-x-1/2 rounded-[8px] cursor-pointer">
-            <p className="text-white font-bold font-inter xl:text-[20px] 2xl:text-[24px]">PLAY NOW!</p>
+          <div className="inline-flex max-sm:hidden h-[48px] w-[132px] text-center animate-shimmer absolute left-1/2 transform -translate-x-1/2 items-center justify-center rounded-[8px] bg-[linear-gradient(85.82deg,#DF0000_30.31%,#FF4444_64.95%,#DF0000_104.43%)] bg-[length:200%_100%] cursor-pointer font-bold text-white text-[16px] transition-colors shadow-[inset_0_0_11.5px_0px_#FFFFFFDB]">
+            PLAY NOW!
           </div>
           <div className="flex flex-row items-center h-full space-x-2">
             <div>
@@ -76,9 +76,17 @@ function App() {
                   <path d="M24 0.00012207C37.2552 0.00012207 48 10.7449 48 24.0001C48 37.2553 37.2552 48.0001 24 48.0001C10.7448 48.0001 0 37.2553 0 24.0001C0 10.7449 10.7448 0.00012207 24 0.00012207ZM34.6608 14.4001C33.7464 14.4169 32.3424 14.8969 25.5912 17.6689C20.8524 19.6473 16.1267 21.6569 11.4144 23.6977C10.2624 24.1513 9.6624 24.5929 9.6072 25.0249C9.5016 25.8553 10.7112 26.1121 12.2328 26.6017C13.4736 27.0001 15.144 27.4657 16.0128 27.4849C16.8 27.5017 17.6784 27.1801 18.648 26.5249C25.272 22.1089 28.6872 19.8793 28.9032 19.8313C29.0544 19.7977 29.2632 19.7545 29.4072 19.8793C29.5488 20.0041 29.5344 20.2393 29.5176 20.3041C29.3976 20.8105 23.1792 26.3953 22.8216 26.7625L22.6488 26.9353C21.3288 28.2385 19.9968 29.0905 22.296 30.5857C24.3744 31.9369 25.584 32.7985 27.72 34.1857C29.088 35.0689 30.1608 36.1177 31.572 35.9905C32.2224 35.9305 32.892 35.3281 33.2352 33.5281C34.0392 29.2801 35.6232 20.0689 35.988 16.2721C36.0101 15.9572 35.9964 15.6408 35.9472 15.3289C35.9176 15.0771 35.7942 14.8458 35.6016 14.6809C35.3112 14.4457 34.86 14.3977 34.6608 14.4001Z" fill="white" />
                 </g>
                 <defs>
-                  <clipPath id="clip0_2401_48">
-                    <rect width="48" height="48" rx="24" fill="white" />
-                  </clipPath>
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2401_48)">
+                      <rect width="48" height="48" rx="24" fill="#EB0000" />
+                      <path d="M24 0.00012207C37.2552 0.00012207 48 10.7449 48 24.0001C48 37.2553 37.2552 48.0001 24 48.0001C10.7448 48.0001 0 37.2553 0 24.0001C0 10.7449 10.7448 0.00012207 24 0.00012207ZM34.6608 14.4001C33.7464 14.4169 32.3424 14.8969 25.5912 17.6689C20.8524 19.6473 16.1267 21.6569 11.4144 23.6977C10.2624 24.1513 9.6624 24.5929 9.6072 25.0249C9.5016 25.8553 10.7112 26.1121 12.2328 26.6017C13.4736 27.0001 15.144 27.4657 16.0128 27.4849C16.8 27.5017 17.6784 27.1801 18.648 26.5249C25.272 22.1089 28.6872 19.8793 28.9032 19.8313C29.0544 19.7977 29.2632 19.7545 29.4072 19.8793C29.5488 20.0041 29.5344 20.2393 29.5176 20.3041C29.3976 20.8105 23.1792 26.3953 22.8216 26.7625L22.6488 26.9353C21.3288 28.2385 19.9968 29.0905 22.296 30.5857C24.3744 31.9369 25.584 32.7985 27.72 34.1857C29.088 35.0689 30.1608 36.1177 31.572 35.9905C32.2224 35.9305 32.892 35.3281 33.2352 33.5281C34.0392 29.2801 35.6232 20.0689 35.988 16.2721C36.0101 15.9572 35.9964 15.6408 35.9472 15.3289C35.9176 15.0771 35.7942 14.8458 35.6016 14.6809C35.3112 14.4457 34.86 14.3977 34.6608 14.4001Z" fill="white" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_2401_48">
+                        <rect width="48" height="48" rx="24" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
                 </defs>
               </svg>
             </div>
@@ -141,6 +149,7 @@ function App() {
           </div>
         </div>
       </div> */}
+
 
 
       <div className=' flex flex-col w-full'>

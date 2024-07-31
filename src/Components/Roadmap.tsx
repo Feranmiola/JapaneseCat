@@ -1,7 +1,7 @@
 
 const Roadmap = () => {
     return (
-        <div className="pt-[10rem] 4xl:pt-[53rem] 3xl:pt-[37rem] 3xl:mb-[25rem] max-sm:pt-[12rem] xl:pt-[20rem] 2xl:pt-[15rem] mb-[13rem] 2xl:mb-[17rem] 5xl:pt-[60rem]">
+        <div className="pt-[10rem] 4xl:pt-[53rem] 3xl:pt-[37rem] 3xl:mb-[25rem] max-sm:pt-[19rem] xl:pt-[20rem] 2xl:pt-[15rem] mb-[13rem] 2xl:mb-[17rem] 5xl:pt-[60rem]">
 
             <div className=" relative">
                 <div className="flex  flex-col space-y-20 items-center justify-center">
