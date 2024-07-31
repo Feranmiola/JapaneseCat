@@ -3,7 +3,7 @@ const Roadmap = () => {
         <div className="pt-[10rem] xl:pt-[20rem] 2xl:pt-[15rem] 3xl:pt-[54rem] 4xl:pt-[53rem] 5xl:pt-[60rem] mb-[13rem] 2xl:mb-[17rem] 3xl:mb-[25rem] max-sm:pt-[19rem]">
             <div className="relative">
                 <div className="flex flex-col space-y-20 items-center justify-center">
-                    <p className="font-electroharmonix text-[48px] max-sm:text-[32px] xl:text-[80px] 2xl:text-[100px] 3xl:text-[200px] 4xl:text-[250px] 5xl:text-[300px] text-headerText">ROADMAP</p>
+                    <p className="font-electroharmonix text-[48px] max-sm:text-[32px] xl:text-[80px] 2xl:text-[100px] 3xl:text-[200px] 4xl:text-[250px] 5xl:text-[300px] text-[#BB1605]">ROADMAP</p>
                     <div className="flex relative flex-row items-center justify-center">
                         <div className="flex flex-col space-y-[3rem] max-lg:space-y-[2rem]">
                             <div className="flex flex-row justify-center">
