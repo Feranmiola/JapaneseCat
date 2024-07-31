@@ -4,7 +4,7 @@ const Home = () => {
             <div className="flex items-center w-full flex-col justify-center pt-[12rem] xl:pt-[20rem] 5xl:pt-[40rem]">
                 <p className="text-[#444444] font-inter max-sm:text-center max-sm:w-[207px] text-[32px] max-sm:text-[18px] max-lg:text-[24px] xl:text-[36px] 2xl:text-[64px] 5xl:text-[72px]">GROW YOUR WEALTH WITH FORTUNE TAP</p>
                 <p className="font-electroharmonix max-sm:w-[358px] max-sm:text-center text-[150px] text-headerText max-lg:text-[64px] xl:text-[170px] 2xl:text-[250px] 5xl:text-[320px] text-center leading-none">Japanese Cat</p>
-                <img src="./assets/jcBG.svg" className="absolute pt-[8rem]" />
+                <img alt="Japanese Background" src="./assets/jcBG.svg" className="absolute pt-[8rem]" />
             </div>
 
             <div className="flex flex-col space-y-5 items-center justify-center py-5">
@@ -16,14 +16,14 @@ const Home = () => {
 
             <div className="relative w-full pt-10 max-sm:pt-[20rem] max-lg:pt-[8rem]">
                 <div className="md:absolute w-full flex md:justify-between ">
-                    <img src="./assets/catLeft.svg" className="relative  max-lg:h-[304px] max-lg:w-[199.84px] 3xl:w-[687px] 3xl:h-[804px] 3xl:bottom-[5rem] max-md:hidden max-lg:bottom-[2rem] bottom-56 md:bottom-40 lg:bottom-48 xl:bottom-[7rem] 2xl:bottom-[2rem] 5xl:bottom-[1rem]" />
-                    <img src="./assets/catRight.svg" className="md:relative max-sm:absolute max-sm:left-[10rem] max-sm:w-[199.84px] max-sm:h-[304px] max-md:left-[12rem] max-md:top-[2rem] max-md:bottom-[12rem] max-lg:h-[304px] max-lg:w-[199.84px]  4xl:bottom-[8rem] 3xl:w-[720px] 3xl:bottom-[13rem] 3xl:h-[786px] max-lg:bottom-[10rem] max-sm:top-[5rem] bottom-56 md:bottom-40 lg:bottom-60 xl:bottom-[13rem] 2xl:bottom-[5rem] 5xl:bottom-[3rem]" />
+                    <img alt="Cat Left" src="./assets/catLeft.svg" className="relative  max-lg:h-[304px] max-lg:w-[199.84px] 3xl:w-[687px] 3xl:h-[804px] 3xl:bottom-[5rem] max-md:hidden max-lg:bottom-[2rem] bottom-56 md:bottom-40 lg:bottom-48 xl:bottom-[7rem] 2xl:bottom-[2rem] 5xl:bottom-[1rem]" />
+                    <img alt="Cat Right" src="./assets/catRight.svg" className="md:relative max-sm:absolute max-sm:left-[10rem] max-sm:w-[199.84px] max-sm:h-[304px] max-md:left-[12rem] max-md:top-[2rem] max-md:bottom-[12rem] max-lg:h-[304px] max-lg:w-[199.84px]  4xl:bottom-[8rem] 3xl:w-[720px] 3xl:bottom-[13rem] 3xl:h-[786px] max-lg:bottom-[10rem] max-sm:top-[5rem] bottom-56 md:bottom-40 lg:bottom-60 xl:bottom-[13rem] 2xl:bottom-[5rem] 5xl:bottom-[3rem]" />
                 </div>
-                <img src="./assets/chineseHouseBG.svg" className="w-full absolute max-md:hidden" />
-                <img src="./assets/homeBGMobile.svg" className="w-full absolute top-[12.5rem] md:hidden" />
+                <img alt="Japanese House" src="./assets/chineseHouseBG.svg" className="w-full absolute max-md:hidden" />
+                <img alt="Japanese House" src="./assets/homeBGMobile.svg" className="w-full absolute top-[12.5rem] md:hidden" />
 
-                <img src="./assets/homeBottom.svg" className="relative max-lg:top-[12rem] 4xl:top-[60rem] 3xl:top-[58rem] max-md:hidden xl:top-[30rem] 2xl:top-[37rem] top-[24rem] w-full 5xl:top-[66rem]" />
-                <img src="./assets/homeBottomMobile.svg" className="relative md:hidden top-[7rem] w-full" />
+                <img alt="Wave Design" src="./assets/homeBottom.svg" className="relative max-lg:top-[12rem] 4xl:top-[60rem] 3xl:top-[58rem] max-md:hidden xl:top-[30rem] 2xl:top-[37rem] top-[24rem] w-full 5xl:top-[66rem]" />
+                <img alt="Wave Design" src="./assets/homeBottomMobile.svg" className="relative md:hidden top-[7rem] w-full" />
             </div>
         </div>
     );
