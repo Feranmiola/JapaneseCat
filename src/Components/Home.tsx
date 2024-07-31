@@ -22,7 +22,7 @@ const Home = () => {
                 <img src="./assets/chineseHouseBG.svg" className="w-full absolute max-md:hidden" />
                 <img src="./assets/homeBGMobile.svg" className="w-full absolute top-[12.5rem] md:hidden" />
 
-                <img src="./assets/homeBottom.svg" className="relative max-lg:top-[12rem] 4xl:top-[60rem] 3xl:top-[58rem] max-md:hidden xl:top-[30rem] 2xl:top-[37rem] top-[24rem] w-full 5xl:top-[6rem]" />
+                <img src="./assets/homeBottom.svg" className="relative max-lg:top-[12rem] 4xl:top-[60rem] 3xl:top-[58rem] max-md:hidden xl:top-[30rem] 2xl:top-[37rem] top-[24rem] w-full 5xl:top-[66rem]" />
                 <img src="./assets/homeBottomMobile.svg" className="relative md:hidden top-[7rem] w-full" />
             </div>
         </div>

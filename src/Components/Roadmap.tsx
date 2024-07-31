@@ -1,171 +1,152 @@
-
 const Roadmap = () => {
     return (
-        <div className="pt-[10rem] 4xl:pt-[53rem] 3xl:pt-[54rem] 3xl:mb-[25rem] max-sm:pt-[19rem] xl:pt-[20rem] 2xl:pt-[15rem] mb-[13rem] 2xl:mb-[17rem] 5xl:pt-[60rem]">
-
-            <div className=" relative">
-                <div className="flex  flex-col space-y-20 items-center justify-center">
-                    <p className="font-electroharmonix text-[48px] text-headerText max-sm:text-[32px] 3xl:text-[200px] max-lg:test-[32px]">ROADMAP</p>
+        <div className="pt-[10rem] xl:pt-[20rem] 2xl:pt-[15rem] 3xl:pt-[54rem] 4xl:pt-[53rem] 5xl:pt-[60rem] mb-[13rem] 2xl:mb-[17rem] 3xl:mb-[25rem] max-sm:pt-[19rem]">
+            <div className="relative">
+                <div className="flex flex-col space-y-20 items-center justify-center">
+                    <p className="font-electroharmonix text-[48px] max-sm:text-[32px] xl:text-[80px] 2xl:text-[100px] 3xl:text-[200px] 4xl:text-[250px] 5xl:text-[300px] text-headerText">ROADMAP</p>
                     <div className="flex relative flex-row items-center justify-center">
                         <div className="flex flex-col space-y-[3rem] max-lg:space-y-[2rem]">
-
-                            <div className="flex flex-row justify-center ">
-                                <div className="flex flex-col w-[370px] h-[184px] border-[2px] border-[#BB1605] max-lg:hidden">
+                            <div className="flex flex-row justify-center">
+                                <div className="flex flex-col w-[370px] xl:w-[450px] 2xl:w-[500px] 3xl:w-[550px] 4xl:w-[600px] 5xl:w-[650px] h-[184px] xl:h-[220px] 2xl:h-[240px] 3xl:h-[260px] 4xl:h-[280px] 5xl:h-[300px] border-[2px] border-[#BB1605] max-lg:hidden">
                                     <div className="w-full h-1/2 items-center flex justify-center border-b-[2px] border-[#BB1605]">
-                                        <p className="text-[20px] text-[#BB1605] font-medium tracking-[0.6rem] text-cente">PHASE 1</p>
+                                        <p className="text-[20px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-medium tracking-[0.6rem]">PHASE 1</p>
                                     </div>
                                     <div className="w-full h-1/2 items-center flex justify-center">
-                                        <p className="text-[20px] text-[#BB1605] font-bold text-center">CONCEPT & PLANNING</p>
+                                        <p className="text-[20px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-bold text-center">CONCEPT & PLANNING</p>
                                     </div>
                                 </div>
-                                <div className="flex flex-col items-center w-[488px] max-md:w-[340px]">
-                                    <div className="flex flex-col w-full h-[184px] max-md:h-[189px] max-lg:h-[220px] border-[2px] lg:border-l-0 border-[#BB1605]">
-                                        <div className="flex flex-col w-full md:h-[160px] h-[92px] lg:hidden">
+                                <div className="flex flex-col items-center w-[488px] xl:w-[588px] 2xl:w-[688px] 3xl:w-[788px] 4xl:w-[888px] 5xl:w-[988px] max-md:w-[340px]">
+                                    <div className="flex flex-col w-full h-[184px] xl:h-[220px] 2xl:h-[240px] 3xl:h-[260px] 4xl:h-[280px] 5xl:h-[300px] max-md:h-[189px] max-lg:h-[220px] border-[2px] lg:border-l-0 border-[#BB1605]">
+                                        <div className="flex flex-col w-full md:h-[160px] xl:h-[180px] 2xl:h-[200px] 3xl:h-[220px] 4xl:h-[240px] 5xl:h-[260px] h-[92px] lg:hidden">
                                             <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605]">
-                                                <p className="text-[20px] text-[#BB1605] font-medium max-sm:text-[16px] tracking-[0.3rem]">PHASE 1</p>
+                                                <p className="text-[20px] max-sm:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-medium tracking-[0.3rem]">PHASE 1</p>
                                             </div>
-                                            <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605] ">
-                                                <p className="text-[20px] text-[#BB1605] font-bold max-sm:text-[16px] text-center">CONCEPT & PLANNING</p>
+                                            <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605]">
+                                                <p className="text-[20px] max-sm:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-bold text-center">CONCEPT & PLANNING</p>
                                             </div>
                                         </div>
-                                        <ul className=" mt-10 h-full pl-16 max-lg:pl-10 max-lg:mt-6">
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">IDEA DEVELOPMENT</li>
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">MARKET RESEARCH</li>
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">TECHNICAL PLANNING</li>
+                                        <ul className="mt-10 xl:mt-12 2xl:mt-14 3xl:mt-16 4xl:mt-18 5xl:mt-20 h-full pl-16 max-lg:pl-10">
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">IDEA DEVELOPMENT</li>
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">MARKET RESEARCH</li>
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">TECHNICAL PLANNING</li>
                                         </ul>
                                     </div>
-
-                                    <div className="bg-[#BB1605] w-full items-center flex justify-center h-[22px]">
-                                        <p className="text-white text-[12px] tracking-[0.4rem] font-bold text-center">COMPLETED</p>
+                                    <div className="bg-[#BB1605] w-full items-center flex justify-center h-[22px] xl:h-[24px] 2xl:h-[26px] 3xl:h-[28px] 4xl:h-[30px] 5xl:h-[32px]">
+                                        <p className="text-white text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[18px] 4xl:text-[20px] 5xl:text-[22px] tracking-[0.4rem] font-bold text-center">COMPLETED</p>
                                     </div>
                                 </div>
-
                             </div>
 
-                            <div className="flex flex-row justify-center ">
-                                <div className="flex flex-col w-[370px] h-[184px] border-[2px] border-[#BB1605] max-lg:hidden">
+                            <div className="flex flex-row justify-center">
+                                <div className="flex flex-col w-[370px] xl:w-[450px] 2xl:w-[500px] 3xl:w-[550px] 4xl:w-[600px] 5xl:w-[650px] h-[184px] xl:h-[220px] 2xl:h-[240px] 3xl:h-[260px] 4xl:h-[280px] 5xl:h-[300px] border-[2px] border-[#BB1605] max-lg:hidden">
                                     <div className="w-full h-1/2 items-center flex justify-center border-b-[2px] border-[#BB1605]">
-                                        <p className="text-[20px] text-[#BB1605] font-medium tracking-[0.6rem] text-cente">PHASE 2</p>
+                                        <p className="text-[20px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-medium tracking-[0.6rem]">PHASE 2</p>
                                     </div>
                                     <div className="w-full h-1/2 items-center flex justify-center">
-                                        <p className="text-[20px] text-[#BB1605] font-bold text-center">DESIGN & DEVELOPMENT</p>
+                                        <p className="text-[20px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-bold text-center">DESIGN & DEVELOPMENT</p>
                                     </div>
                                 </div>
-                                <div className="flex flex-col items-center w-[488px] max-md:w-[340px]">
-                                    <div className="flex flex-col w-full h-[184px] max-md:h-[189px] max-lg:h-[220px] border-[2px] lg:border-l-0 border-[#BB1605]">
-                                        <div className="flex flex-col w-full md:h-[160px] h-[92px] lg:hidden">
+                                <div className="flex flex-col items-center w-[488px] xl:w-[588px] 2xl:w-[688px] 3xl:w-[788px] 4xl:w-[888px] 5xl:w-[988px] max-md:w-[340px]">
+                                    <div className="flex flex-col w-full h-[184px] xl:h-[220px] 2xl:h-[240px] 3xl:h-[260px] 4xl:h-[280px] 5xl:h-[300px] max-md:h-[189px] max-lg:h-[220px] border-[2px] lg:border-l-0 border-[#BB1605]">
+                                        <div className="flex flex-col w-full md:h-[160px] xl:h-[180px] 2xl:h-[200px] 3xl:h-[220px] 4xl:h-[240px] 5xl:h-[260px] h-[92px] lg:hidden">
                                             <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605]">
-                                                <p className="text-[20px] text-[#BB1605] font-medium max-sm:text-[16px] tracking-[0.3rem]">PHASE 2</p>
+                                                <p className="text-[20px] max-sm:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-medium tracking-[0.3rem]">PHASE 2</p>
                                             </div>
-                                            <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605] ">
-                                                <p className="text-[20px] text-[#BB1605] font-bold max-sm:text-[16px] text-center">DESIGN & DEVELOPMENT</p>
+                                            <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605]">
+                                                <p className="text-[20px] max-sm:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-bold text-center">DESIGN & DEVELOPMENT</p>
                                             </div>
                                         </div>
-                                        <ul className=" mt-10 h-full pl-16 max-lg:pl-10 max-lg:mt-6">
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">UI/UX DESIGNING</li>
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">APP DEVELOPMENT</li>
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">BETA LAUNCH</li>
+                                        <ul className="mt-10 xl:mt-12 2xl:mt-14 3xl:mt-16 4xl:mt-18 5xl:mt-20 h-full pl-16 max-lg:pl-10">
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">UI/UX DESIGNING</li>
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">APP DEVELOPMENT</li>
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">BETA LAUNCH</li>
                                         </ul>
                                     </div>
-                                    <div className="bg-[#DFB850] w-full items-center flex justify-center h-[22px]">
-                                        <p className="text-[#BB1605] text-[12px] tracking-[0.4rem] font-bold text-center">IN PROGRESS</p>
+                                    <div className="bg-[#DFB850] w-full items-center flex justify-center h-[22px] xl:h-[24px] 2xl:h-[26px] 3xl:h-[28px] 4xl:h-[30px] 5xl:h-[32px]">
+                                        <p className="text-[#BB1605] text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[18px] 4xl:text-[20px] 5xl:text-[22px] tracking-[0.4rem] font-bold text-center">IN PROGRESS</p>
                                     </div>
                                 </div>
-
                             </div>
 
-
-                            <div className="flex flex-row justify-center ">
-                                <div className="flex flex-col w-[370px] h-[184px] border-[2px] border-[#BB1605] max-lg:hidden">
+                            <div className="flex flex-row justify-center">
+                                <div className="flex flex-col w-[370px] xl:w-[450px] 2xl:w-[500px] 3xl:w-[550px] 4xl:w-[600px] 5xl:w-[650px] h-[184px] xl:h-[220px] 2xl:h-[240px] 3xl:h-[260px] 4xl:h-[280px] 5xl:h-[300px] border-[2px] border-[#BB1605] max-lg:hidden">
                                     <div className="w-full h-1/2 items-center flex justify-center border-b-[2px] border-[#BB1605]">
-                                        <p className="text-[20px] text-[#BB1605] font-medium tracking-[0.6rem] text-cente">PHASE 3</p>
+                                        <p className="text-[20px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-medium tracking-[0.6rem]">PHASE 3</p>
                                     </div>
                                     <div className="w-full h-1/2 items-center flex justify-center">
-                                        <p className="text-[20px] text-[#BB1605] font-bold text-center">OFFICIAL LAUNCH & TGE</p>
+                                        <p className="text-[20px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-bold text-center">OFFICIAL LAUNCH & TGE</p>
                                     </div>
                                 </div>
-                                <div className="flex flex-col items-center w-[488px] max-md:w-[340px]">
-                                    <div className="flex flex-col w-full h-[184px] max-md:h-[189px] max-lg:h-[220px] border-[2px] lg:border-l-0 border-[#BB1605]">
-                                        <div className="flex flex-col w-full md:h-[160px] h-[92px] lg:hidden">
+                                <div className="flex flex-col items-center w-[488px] xl:w-[588px] 2xl:w-[688px] 3xl:w-[788px] 4xl:w-[888px] 5xl:w-[988px] max-md:w-[340px]">
+                                    <div className="flex flex-col w-full h-[184px] xl:h-[220px] 2xl:h-[240px] 3xl:h-[260px] 4xl:h-[280px] 5xl:h-[300px] max-md:h-[189px] max-lg:h-[220px] border-[2px] lg:border-l-0 border-[#BB1605]">
+                                        <div className="flex flex-col w-full md:h-[160px] xl:h-[180px] 2xl:h-[200px] 3xl:h-[220px] 4xl:h-[240px] 5xl:h-[260px] h-[92px] lg:hidden">
                                             <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605]">
-                                                <p className="text-[20px] text-[#BB1605] font-medium max-sm:text-[16px] tracking-[0.3rem]">PHASE 3</p>
+                                                <p className="text-[20px] max-sm:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-medium tracking-[0.3rem]">PHASE 3</p>
                                             </div>
-                                            <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605] ">
-                                                <p className="text-[20px] text-[#BB1605] font-bold max-sm:text-[16px] text-center">OFFICIAL LAUNCH & TGE</p>
+                                            <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605]">
+                                                <p className="text-[20px] max-sm:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-bold text-center">OFFICIAL LAUNCH & TGE</p>
                                             </div>
                                         </div>
-                                        <ul className=" mt-10 h-full pl-16 max-lg:pl-10 max-lg:mt-6">
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">PUBLIC LAUNCH</li>
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">TGE (TOKEN GENERATION EVENT)</li>
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">TOKEN DISTRIBUTION</li>
+                                        <ul className="mt-10 xl:mt-12 2xl:mt-14 3xl:mt-16 4xl:mt-18 5xl:mt-20 h-full pl-16 max-lg:pl-10">
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">PUBLIC LAUNCH</li>
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">TGE (TOKEN GENERATION EVENT)</li>
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">TOKEN DISTRIBUTION</li>
                                         </ul>
                                     </div>
-                                    <div className="bg-transparent w-full items-center flex justify-center h-[22px]">
-                                        <p className="text-transparent text-[12px] tracking-[0.4rem] font-bold text-center">COMPLETED</p>
+                                    <div className="bg-transparent w-full items-center flex justify-center h-[22px] xl:h-[24px] 2xl:h-[26px] 3xl:h-[28px] 4xl:h-[30px] 5xl:h-[32px]">
+                                        <p className="text-transparent text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[18px] 4xl:text-[20px] 5xl:text-[22px] tracking-[0.4rem] font-bold text-center">COMPLETED</p>
                                     </div>
                                 </div>
-
                             </div>
 
-
-                            <div className="flex flex-row justify-center ">
-                                <div className="flex flex-col w-[370px] h-[184px] border-[2px] border-[#BB1605] max-lg:hidden">
+                            <div className="flex flex-row justify-center">
+                                <div className="flex flex-col w-[370px] xl:w-[450px] 2xl:w-[500px] 3xl:w-[550px] 4xl:w-[600px] 5xl:w-[650px] h-[184px] xl:h-[220px] 2xl:h-[240px] 3xl:h-[260px] 4xl:h-[280px] 5xl:h-[300px] border-[2px] border-[#BB1605] max-lg:hidden">
                                     <div className="w-full h-1/2 items-center flex justify-center border-b-[2px] border-[#BB1605]">
-                                        <p className="text-[20px] text-[#BB1605] font-medium tracking-[0.6rem] text-cente">PHASE 4</p>
+                                        <p className="text-[20px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-medium tracking-[0.6rem]">PHASE 4</p>
                                     </div>
                                     <div className="w-full h-1/2 items-center flex justify-center">
-                                        <p className="text-[20px] text-[#BB1605] font-bold text-center">LONG TERM VISION</p>
+                                        <p className="text-[20px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-bold text-center">LONG TERM VISION</p>
                                     </div>
                                 </div>
-                                <div className="flex flex-col items-center w-[488px] max-md:w-[340px]">
-                                    <div className="flex flex-col w-full h-[184px] max-md:h-[189px] max-lg:h-[220px] border-[2px] lg:border-l-0 border-[#BB1605]">
-                                        <div className="flex flex-col w-full md:h-[160px] h-[92px] lg:hidden">
+                                <div className="flex flex-col items-center w-[488px] xl:w-[588px] 2xl:w-[688px] 3xl:w-[788px] 4xl:w-[888px] 5xl:w-[988px] max-md:w-[340px]">
+                                    <div className="flex flex-col w-full h-[184px] xl:h-[220px] 2xl:h-[240px] 3xl:h-[260px] 4xl:h-[280px] 5xl:h-[300px] max-md:h-[189px] max-lg:h-[220px] border-[2px] lg:border-l-0 border-[#BB1605]">
+                                        <div className="flex flex-col w-full md:h-[160px] xl:h-[180px] 2xl:h-[200px] 3xl:h-[220px] 4xl:h-[240px] 5xl:h-[260px] h-[92px] lg:hidden">
                                             <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605]">
-                                                <p className="text-[20px] text-[#BB1605] font-medium max-sm:text-[16px] tracking-[0.3rem]">PHASE 4</p>
+                                                <p className="text-[20px] max-sm:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-medium tracking-[0.3rem]">PHASE 4</p>
                                             </div>
-                                            <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605] ">
-                                                <p className="text-[20px] text-[#BB1605] font-bold max-sm:text-[16px] text-center">LONG TERM VISION</p>
+                                            <div className="w-full h-1/2 lg:items-center flex lg:justify-center max-lg:pl-5 border-b-[2px] border-[#BB1605]">
+                                                <p className="text-[20px] max-sm:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605] font-bold text-center">LONG TERM VISION</p>
                                             </div>
                                         </div>
-                                        <ul className=" mt-10 h-full pl-16 max-lg:pl-10 max-lg:mt-6">
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">ECOSYSTEM INTEGRATION</li>
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">SUSTAINABLE GROWTH</li>
-                                            <li className="text-[20px] max-md:text-[16px] text-[#BB1605]">FUTURE DEVELOPMENTS</li>
+                                        <ul className="mt-10 xl:mt-12 2xl:mt-14 3xl:mt-16 4xl:mt-18 5xl:mt-20 h-full pl-16 max-lg:pl-10">
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">ECOSYSTEM INTEGRATION</li>
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">SUSTAINABLE GROWTH</li>
+                                            <li className="text-[20px] max-md:text-[16px] xl:text-[24px] 2xl:text-[28px] 3xl:text-[32px] 4xl:text-[36px] 5xl:text-[40px] text-[#BB1605]">FUTURE DEVELOPMENTS</li>
                                         </ul>
                                     </div>
-                                    <div className="bg-transparent w-full items-center flex justify-center h-[22px]">
-                                        <p className="text-transparent text-[12px] tracking-[0.4rem] font-bold text-center">COMPLETED</p>
+                                    <div className="bg-transparent w-full items-center flex justify-center h-[22px] xl:h-[24px] 2xl:h-[26px] 3xl:h-[28px] 4xl:h-[30px] 5xl:h-[32px]">
+                                        <p className="text-transparent text-[12px] xl:text-[14px] 2xl:text-[16px] 3xl:text-[18px] 4xl:text-[20px] 5xl:text-[22px] tracking-[0.4rem] font-bold text-center">COMPLETED</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-                        <div className="absolute max-lg:hidden top-[-25px] left-[22.7rem]">
-                            <svg width="12" height="1020" viewBox="0 0 12 1020" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0.666667 6C0.666667 8.94552 3.05448 11.3333 6 11.3333C8.94552 11.3333 11.3333 8.94552 11.3333 6C11.3333 3.05448 8.94552 0.666667 6 0.666667C3.05448 0.666667 0.666667 3.05448 0.666667 6ZM0.666623 1014C0.666622 1016.95 3.05444 1019.33 5.99996 1019.33C8.94547 1019.33 11.3333 1016.95 11.3333 1014C11.3333 1011.05 8.94547 1008.67 5.99996 1008.67C3.05444 1008.67 0.666623 1011.05 0.666623 1014ZM5 6L4.99996 1014L6.99996 1014L7 6L5 6Z" fill="#BB1605" />
-                            </svg>
+                        <div >
+                            <img
+                                src="./assets/roadmapLine.svg"
+                                className="absolute max-lg:hidden 2xl:h-[1250px] xl:h-[1155px] 3xl:h-[1350px] top-[-25px] xl:top-[-30px] 2xl:top-[-35px] 3xl:top-[-40px] 4xl:top-[-45px] 5xl:top-[-50px] left-[22.7rem] xl:left-[27.7rem] 2xl:left-[30.7rem] 3xl:left-[33.8rem] 4xl:left-[30.7rem] 5xl:left-[40.1rem]"
+                            />
                         </div>
-
-
                     </div>
-
                 </div>
-                <div className="absolute max-md:hidden 3xl:top-[85rem] top-[77rem] max-lg:top-[85rem] xl:top-[72rem] 2xl:top-[75rem] w-full">
-                    <img
-                        src="./assets/roadmapBottom.svg"
-                        className="  w-full"
-                    />
+                <div className="absolute max-md:hidden top-[77rem] xl:top-[85rem] 2xl:top-[93rem] 3xl:top-[106rem] 4xl:top-[89rem] 5xl:top-[125rem] w-full">
+                    <img src="./assets/roadmapBottom.svg" className="w-full" />
                 </div>
                 <div className="absolute md:hidden top-[73rem] w-full">
-                    <img
-                        src="./assets/roadmapBottomMobile.svg"
-                        className="  w-full"
-                    />
+                    <img src="./assets/roadmapBottomMobile.svg" className="w-full" />
                 </div>
             </div>
-
         </div>
-    )
-}
+    );
+};
 
-export default Roadmap
+export default Roadmap;
