@@ -29,14 +29,12 @@ function App() {
     });
   }, []);
 
-  const playAudio = () => {
-    const audio = new Audio('https://cdn.pixabay.com/download/audio/2022/11/10/audio_9e50336b15.mp3?filename=anime-piano-1-125502.mp3');
-    audio.play().catch(error => {
-      setPlayError(true);
-      console.error('Error playing audio:', error);
-    });
+  useEffect(() => {
+    const audio = document.getElementById('welcome-audio') as HTMLAudioElement | null;
 
-    setTimeout(() => {
+    const fadeOutAudio = () => {
+      if (!audio) return; // Ensure audio is not null
+
       const fadeOutDuration = 2000; // Duration of the fade-out in milliseconds
       const fadeOutSteps = 20; // Number of steps in the fade-out
       const fadeOutStepDuration = fadeOutDuration / fadeOutSteps; // Time between each step
@@ -52,13 +50,18 @@ function App() {
           audio.currentTime = 0;
         }
       }, fadeOutStepDuration);
-    }, 5000); // Start fading out after 5 seconds
-  };
+    };
 
-  useEffect(() => {
-    if (!loading || playError) {
+    if (!loading && !playError) {
       setPlayError(false);
-      playAudio();
+      audio?.play().catch((error) => {
+        setPlayError(true);
+        console.error('Error playing audio:', error);
+      });
+
+      setTimeout(() => {
+        fadeOutAudio();
+      }, 5000); // Start fading out after 5 seconds
     }
   }, [loading, playError]);
 
@@ -70,6 +73,7 @@ function App() {
       </div>
     );
   }
+
 
   const title = "Japanese Cat"
   const description = "Meet Maneki Neko, the iconic Japanese lucky cat! Known for its beckoning paw, Maneki Neko is believed to bring good fortune and prosperity. This charming feline is set to become the face of a revolutionary new token, capturing the essence of luck and success."
@@ -84,6 +88,13 @@ function App() {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
       </Helmet>
+      <audio
+        id="welcome-audio"
+        src='https://cdn.pixabay.com/download/audio/2022/11/10/audio_9e50336b15.mp3?filename=anime-piano-1-125502.mp3'
+        autoPlay
+      >
+
+      </audio>
 
       <div className='flex flex-col items-center justify-center'>
         <AnimatePresence>
