@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 function App() {
   const [loading, setLoading] = useState(true);
-  // const [playError, setPlayError] = useState(false);
+  const [playError, setPlayError] = useState(false);
   const imageUrls = ['./assets/catLeft.svg', './assets/catRight.svg', './assets/chineseHouseBG.svg', './assets/homeBottom.svg'];
   const imageUrlsMobile = ['./assets/catRight.svg', './assets/homeBGMobile.svg', './assets/homeBottomMobile.svg'];
 
@@ -29,20 +29,20 @@ function App() {
     });
   }, []);
 
-  // const playAudio = () => {
-  //   const audio = new Audio('./assets/WelcomeSound.mp3');
-  //   audio.play().catch(error => {
-  //     setPlayError(true);
-  //     console.error('Error playing audio:', error);
-  //   });
-  // };
+  const playAudio = () => {
+    const audio = new Audio('./assets/WelcomeSound.mp3');
+    audio.play().catch(error => {
+      setPlayError(true);
+      console.error('Error playing audio:', error);
+    });
+  };
 
-  // useEffect(() => {
-  //   if (!loading || playError) {
-  //     setPlayError(false);
-  //     playAudio();
-  //   }
-  // }, [loading, playError]);
+  useEffect(() => {
+    if (!loading || playError) {
+      setPlayError(false);
+      playAudio();
+    }
+  }, [loading, playError]);
 
 
   if (loading) {
