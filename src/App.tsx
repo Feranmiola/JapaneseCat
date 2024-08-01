@@ -30,7 +30,7 @@ function App() {
   }, []);
 
   const playAudio = () => {
-    const audio = new Audio('./assets/WelcomeSound.wav');
+    const audio = new Audio('./assets/WelcomeSound.mp3');
     audio.play().catch(error => {
       setPlayError(true);
       console.error('Error playing audio:', error);
