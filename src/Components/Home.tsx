@@ -111,7 +111,7 @@ const Home = () => {
                 /> */}
 
                 <img alt="Wave Design" src="./assets/homeBottom.svg" className="relative max-lg:top-[12rem] 4xl:top-[60rem] 3xl:top-[58rem] max-md:hidden xl:top-[30rem] 2xl:top-[37rem] top-[24rem] w-full 5xl:top-[66rem]" />
-                <img alt="Wave Design" src="./assets/homeBottomMobile.svg" className="relative md:hidden top-[7rem] w-full" />
+                <img alt="Wave Design" src="./assets/homeBottomMobile.svg" className="relative md:hidden top-[6rem] w-full" />
             </div>
         </div>
     );
