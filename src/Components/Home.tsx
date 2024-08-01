@@ -1,6 +1,51 @@
 import { motion } from 'framer-motion';
+import { useEffect, useRef, useCallback } from 'react'
 
 const Home = () => {
+    const audioContextRef = useRef<AudioContext | null>(null);
+    const isClickSoundPlayingRef = useRef<boolean>(false);
+    const clickSoundBufferRef = useRef<AudioBuffer | null>(null);
+
+    useEffect(() => {
+        audioContextRef.current = new (window.AudioContext || (window as any).webkitAudioContext)();
+
+        const clickSoundUrl = 'https://cdn.pixabay.com/download/audio/2022/09/29/audio_a4b3f2fe44.mp3?filename=select-sound-121244.mp3';
+        fetch(clickSoundUrl)
+            .then(response => response.arrayBuffer())
+            .then(arrayBuffer => audioContextRef.current!.decodeAudioData(arrayBuffer))
+            .then(audioBuffer => {
+                clickSoundBufferRef.current = audioBuffer;
+            })
+            .catch(error => console.error('Error loading click sound:', error));
+
+
+        return () => {
+            if (audioContextRef.current) {
+                audioContextRef.current.close();
+            }
+        };
+    }, []);
+
+    const playClickSound = useCallback(() => {
+        if (isClickSoundPlayingRef.current || !audioContextRef.current || !clickSoundBufferRef.current) return;
+        isClickSoundPlayingRef.current = true;
+
+        const source = audioContextRef.current.createBufferSource();
+        source.buffer = clickSoundBufferRef.current;
+        source.connect(audioContextRef.current.destination);
+        source.start(0);
+        source.onended = () => {
+            isClickSoundPlayingRef.current = false;
+        };
+    }, []);
+
+    const handlePlayNowClick = useCallback((event: React.MouseEvent | React.TouchEvent) => {
+        event.preventDefault();
+        playClickSound();
+        // Only play click sound, no background sound here
+    }, [playClickSound]);
+
+
     return (
         <div className="w-screen max-sm:h-[1000px] bg-white h-[1152px] md:h-[820px] lg:h-[1100px] 2xl:h-[1800px] xl:h-[1300px] 4xl:h-[2400px]">
             <div className="flex items-center w-full flex-col justify-center pt-[12rem] xl:pt-[20rem] 5xl:pt-[40rem]">
@@ -45,6 +90,7 @@ const Home = () => {
             <div className='w-full flex items-center justify-center'>
 
                 <motion.div
+                    onClick={handlePlayNowClick}
                     className="inline-flex md:hidden h-[60px] w-[268px] text-center animate-shimmer items-center justify-center rounded-[8px] bg-[linear-gradient(85.82deg,#DF0000_30.31%,#FF4444_64.95%,#DF0000_104.43%)] bg-[length:200%_100%] cursor-pointer font-bold text-white text-[16px] transition-colors shadow-[inset_0_0_11.5px_0px_#FFFFFFDB]"
                     initial={{ y: 100, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
