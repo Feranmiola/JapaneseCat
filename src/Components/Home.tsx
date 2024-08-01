@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 const Home = () => {
     return (
-        <div className="w-screen max-sm:h-[900px] bg-white h-[1152px] md:h-[820px] lg:h-[1100px] 2xl:h-[1800px] xl:h-[1300px] 4xl:h-[2400px]">
+        <div className="w-screen max-sm:h-[1000px] bg-white h-[1152px] md:h-[820px] lg:h-[1100px] 2xl:h-[1800px] xl:h-[1300px] 4xl:h-[2400px]">
             <div className="flex items-center w-full flex-col justify-center pt-[12rem] xl:pt-[20rem] 5xl:pt-[40rem]">
                 <motion.img
                     alt="Japanese Background"
