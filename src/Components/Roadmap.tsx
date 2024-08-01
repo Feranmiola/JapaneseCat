@@ -139,7 +139,7 @@ const Roadmap = () => {
                         </div>
                     </div>
                 </div>
-                <div className="absolute max-md:hidden top-[77rem] xl:top-[85rem] 2xl:top-[93rem] 3xl:top-[106rem] 4xl:top-[89rem] 5xl:top-[125rem] w-full">
+                <div className="absolute max-md:hidden top-[77rem] max-lg:top-[85rem] xl:top-[85rem] 2xl:top-[93rem] 3xl:top-[106rem] 4xl:top-[89rem] 5xl:top-[125rem] w-full">
                     <img alt="Roadmap Wave Design" src="./assets/roadmapBottom.svg" className="w-full" />
                 </div>
                 <div className="absolute md:hidden top-[73rem] w-full">

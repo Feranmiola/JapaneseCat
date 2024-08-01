@@ -60,7 +60,7 @@ const Home = () => {
                     <motion.img
                         alt="Cat Left"
                         src="./assets/catLeft.svg"
-                        className="relative max-lg:h-[304px] max-lg:w-[199.84px] 3xl:w-[687px] 3xl:h-[804px] 3xl:bottom-[5rem] max-md:hidden max-lg:bottom-[2rem] bottom-56 md:bottom-40 lg:bottom-48 xl:bottom-[7rem] 2xl:bottom-[2rem] 5xl:bottom-[1rem]"
+                        className="relative max-lg:h-[304px] max-lg:w-[199.84px] 3xl:w-[687px] 3xl:h-[804px] 3xl:bottom-[5rem] max-md:hidden max-lg:bottom-[2rem] bottom-56 md:bottom-[6rem] lg:bottom-48 xl:bottom-[7rem] 2xl:bottom-[2rem] 5xl:bottom-[1rem]"
                         initial={{ x: -100, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.8, delay: 2.5 }}
@@ -68,7 +68,7 @@ const Home = () => {
                     <motion.img
                         alt="Cat Right"
                         src="./assets/catRight.svg"
-                        className="md:relative max-sm:absolute max-sm:left-[10rem] max-sm:w-[199.84px] max-sm:h-[304px] max-md:left-[12rem] max-md:top-[2rem] max-md:bottom-[12rem] max-lg:h-[304px] max-lg:w-[199.84px] 4xl:bottom-[8rem] 3xl:w-[720px] 3xl:bottom-[13rem] 3xl:h-[786px] max-lg:bottom-[10rem] max-sm:top-[5rem] bottom-56 md:bottom-40 lg:bottom-60 xl:bottom-[13rem] 2xl:bottom-[5rem] 5xl:bottom-[3rem]"
+                        className="md:relative max-sm:absolute max-sm:left-[10rem] max-sm:w-[199.84px] max-sm:h-[304px] max-md:left-[12rem] max-md:top-[2rem] max-md:bottom-[12rem] max-lg:h-[304px] max-lg:w-[199.84px] 4xl:bottom-[8rem] 3xl:w-[720px] 3xl:bottom-[13rem] 3xl:h-[786px] max-lg:bottom-[10rem] max-sm:top-[5rem] bottom-56 md:bottom-[8rem] lg:bottom-60 xl:bottom-[13rem] 2xl:bottom-[5rem] 5xl:bottom-[3rem]"
                         initial={{ x: 100, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ duration: 0.8, delay: 2.5 }}

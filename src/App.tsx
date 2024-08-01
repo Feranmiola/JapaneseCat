@@ -30,11 +30,29 @@ function App() {
   }, []);
 
   const playAudio = () => {
-    const audio = new Audio('./assets/WelcomeSound.mp3');
+    const audio = new Audio('https://cdn.pixabay.com/download/audio/2022/11/10/audio_9e50336b15.mp3?filename=anime-piano-1-125502.mp3');
     audio.play().catch(error => {
       setPlayError(true);
       console.error('Error playing audio:', error);
     });
+
+    setTimeout(() => {
+      const fadeOutDuration = 2000; // Duration of the fade-out in milliseconds
+      const fadeOutSteps = 20; // Number of steps in the fade-out
+      const fadeOutStepDuration = fadeOutDuration / fadeOutSteps; // Time between each step
+      let currentStep = 0;
+
+      const fadeOutInterval = setInterval(() => {
+        if (currentStep < fadeOutSteps) {
+          audio.volume = 1 - (currentStep / fadeOutSteps);
+          currentStep++;
+        } else {
+          clearInterval(fadeOutInterval);
+          audio.pause();
+          audio.currentTime = 0;
+        }
+      }, fadeOutStepDuration);
+    }, 5000); // Start fading out after 5 seconds
   };
 
   useEffect(() => {
