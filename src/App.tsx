@@ -178,7 +178,7 @@ function App() {
                 </div>
                 <div className="flex flex-row items-center h-full space-x-2">
                   <div className="flex flex-row items-center h-full space-x-2">
-                    <a href="https://x.com/RedJapaneseCat" target='blank'>
+                    <a href="https://x.com/fortunetap" target='blank'>
                       <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="xl:w-[56px] shadow-sm xl:h-[56px] 2xl:w-[64px] 2xl:h-[64px] rounded-full">
                         <rect x="-0.00439453" y="-0.00219727" width="48.0044" height="48.0044" rx="24.0022" fill="white" />
                         <path d="M26.0491 21.9951L35.7954 10.909H33.4854L25.0251 20.5346L18.2645 10.909H10.4683L20.69 25.4661L10.4683 37.0908H12.7783L21.7141 26.9248L28.8539 37.0908H36.6501L26.0491 21.9951ZM22.8864 25.5933L21.8507 24.1439L13.6098 12.6108H17.1576L23.8065 21.9185L24.8422 23.3678L33.4873 35.4675H29.9396L22.8864 25.5933Z" fill="#EB0000" />

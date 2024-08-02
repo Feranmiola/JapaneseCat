@@ -14,7 +14,7 @@ const Footer = () => (
                                 <img alt="Telegram Icon" src="./assets/telegramIcon.svg" />
                                 <p className="text-[20px] tracking-[0.2rem] xl:text-[24px] 2xl:text-[28px]">TELEGRAM</p>
                             </a>
-                            <a href="https://x.com/RedJapaneseCat" target="blank" className="w-[582.5px] flex items-center py-7 flex-row space-x-5 justify-center xl:w-[682.5px] xl:py-10 2xl:w-[750px] 2xl:py-12">
+                            <a href="https://x.com/fortunetap" target="blank" className="w-[582.5px] flex items-center py-7 flex-row space-x-5 justify-center xl:w-[682.5px] xl:py-10 2xl:w-[750px] 2xl:py-12">
                                 <img alt="X Icon" src="./assets/xicon.svg" />
                                 <p className="text-[20px] tracking-[0.2rem] xl:text-[24px] 2xl:text-[28px]">X (TWITTER)</p>
                             </a>
@@ -40,7 +40,7 @@ const Footer = () => (
                     </div>
                 </a>
 
-                <a href="https://x.com/RedJapaneseCat" target="blank" className="bg-[#FFF6DC]">
+                <a href="https://x.com/fortunetap" target="blank" className="bg-[#FFF6DC]">
                     <div className="py-10 px-5 flex flex-row items-center space-x-2 justify-center">
                         <img alt="X Icon" src="./assets/xicon.svg" />
                         <p className="text-[20px] tracking-[0.2rem]">X (TWITTER)</p>
