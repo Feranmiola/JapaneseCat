@@ -186,7 +186,7 @@ function App() {
                       </svg>
                     </a>
                     <div className="border-r-[#7E0000] border-r-[1px] h-full"></div>
-                    <a href="https://t.me/redjapanesecat" target='blank'>
+                    <a href="https://t.me/fortunetap_community" target='blank'>
                       <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="xl:w-[56px] shadow-sm xl:h-[56px] 2xl:w-[64px] 2xl:h-[64px] rounded-full">
                         <g clipPath="url(#clip0_2360_7226)">
                           <path d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="white" />

@@ -10,7 +10,7 @@ const Footer = () => (
                             <p className="text-[16px] tracking-[0.2rem] xl:text-[20px] 2xl:text-[24px]">STAY CONNECTED WITH ENDLESS FORTUNE AND OPPORTUNITIES</p>
                         </div>
                         <div className="flex flex-row h-full">
-                            <a href="https://t.me/redjapanesecat" target="blank" className="w-[582.5px] flex items-center py-8 border-r-[1px] border-tokenomicsBg flex-row space-x-5 justify-center xl:w-[682.5px] xl:py-10 2xl:w-[750px] 2xl:py-12">
+                            <a href="https://t.me/fortunetap_community" target="blank" className="w-[582.5px] flex items-center py-8 border-r-[1px] border-tokenomicsBg flex-row space-x-5 justify-center xl:w-[682.5px] xl:py-10 2xl:w-[750px] 2xl:py-12">
                                 <img alt="Telegram Icon" src="./assets/telegramIcon.svg" />
                                 <p className="text-[20px] tracking-[0.2rem] xl:text-[24px] 2xl:text-[28px]">TELEGRAM</p>
                             </a>
@@ -33,7 +33,7 @@ const Footer = () => (
                     </div>
                 </div>
 
-                <a href="https://t.me/redjapanesecat" target="blank" className="bg-[#FFF6DC]">
+                <a href="https://t.me/fortunetap_community" target="blank" className="bg-[#FFF6DC]">
                     <div className="py-10 px-5 flex flex-row items-center space-x-2 justify-center">
                         <img alt="Telegram Icon" src="./assets/telegramIcon.svg" />
                         <p className="text-[20px] tracking-[0.2rem]">TELEGRAM</p>
