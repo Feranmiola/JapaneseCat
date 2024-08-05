@@ -149,7 +149,7 @@ function App() {
       <Helmet prioritizeSeoTags>
         <title>Japanese Cat</title>
         <meta name='description' content="Meet Maneki Neko, the iconic Japanese lucky cat! Known for its beckoning paw, Maneki Neko is believed to bring good fortune and prosperity. This charming feline is set to become the face of a revolutionary new token, capturing the essence of luck and success." />
-        <meta property="og:type" content="Landing Page" />
+        <meta property="og:type" content="Website" />
         <meta property="og:title" content="Japanese Cat" />
         <meta property="og:description" content="Meet Maneki Neko, the iconic Japanese lucky cat! Known for its beckoning paw, Maneki Neko is believed to bring good fortune and prosperity. This charming feline is set to become the face of a revolutionary new token, capturing the essence of luck and success." />
       </Helmet>
