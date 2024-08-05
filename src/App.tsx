@@ -81,57 +81,58 @@ function App() {
     };
   }, []);
 
-  const playBackgroundSound = useCallback(() => {
-    if (!audioContextRef.current || !bgSoundBufferRef.current) return;
+  // const playBackgroundSound = useCallback(() => {
+  //   if (!audioContextRef.current || !bgSoundBufferRef.current) return;
 
-    if (audioContextRef.current.state === 'suspended') {
-      audioContextRef.current.resume();
-    }
+  //   if (audioContextRef.current.state === 'suspended') {
+  //     audioContextRef.current.resume();
+  //   }
 
-    if (bgSoundSourceRef.current) {
-      bgSoundSourceRef.current.stop();
-    }
+  //   if (bgSoundSourceRef.current) {
+  //     bgSoundSourceRef.current.stop();
+  //   }
 
-    bgSoundSourceRef.current = audioContextRef.current.createBufferSource();
-    bgSoundSourceRef.current.buffer = bgSoundBufferRef.current;
-    bgSoundSourceRef.current.connect(audioContextRef.current.destination);
-    bgSoundSourceRef.current.loop = true;
-    bgSoundSourceRef.current.start(0);
+  //   bgSoundSourceRef.current = audioContextRef.current.createBufferSource();
+  //   bgSoundSourceRef.current.buffer = bgSoundBufferRef.current;
+  //   bgSoundSourceRef.current.connect(audioContextRef.current.destination);
+  //   bgSoundSourceRef.current.loop = true;
+  //   bgSoundSourceRef.current.start(0);
 
-    // Fade out after 5 seconds
-    const gain = audioContextRef.current.createGain();
-    gain.connect(audioContextRef.current.destination);
-    bgSoundSourceRef.current.connect(gain);
+  //   // Fade out after 5 seconds
+  //   const gain = audioContextRef.current.createGain();
+  //   gain.connect(audioContextRef.current.destination);
+  //   bgSoundSourceRef.current.connect(gain);
 
-    gain.gain.setValueAtTime(1, audioContextRef.current.currentTime);
-    gain.gain.linearRampToValueAtTime(0, audioContextRef.current.currentTime + 5);
+  //   gain.gain.setValueAtTime(1, audioContextRef.current.currentTime);
+  //   gain.gain.linearRampToValueAtTime(0, audioContextRef.current.currentTime + 5);
 
-    setTimeout(() => {
-      if (bgSoundSourceRef.current) {
-        bgSoundSourceRef.current.stop();
-      }
-    }, 5000);
-  }, []);
+  //   setTimeout(() => {
+  //     if (bgSoundSourceRef.current) {
+  //       bgSoundSourceRef.current.stop();
+  //     }
+  //   }, 5000);
+  // }, []);
 
-  useEffect(() => {
-    if (!loading && bgSoundBufferRef.current && audioContextRef.current) {
-      // Try to play background sound when page is loaded
-      const playAttempt = setInterval(() => {
-        audioContextRef.current!.resume().then(() => {
-          playBackgroundSound();
-          clearInterval(playAttempt);
-        }).catch(() => {
-          // If autoplay is blocked, we'll try again on the next interval
-        });
-      }, 1000); // Try every second
+  // useEffect(() => {
+  //   if (!loading && bgSoundBufferRef.current && audioContextRef.current) {
+  //     // Try to play background sound when page is loaded
+  //     const playAttempt = setInterval(() => {
+  //       audioContextRef.current!.resume().then(() => {
+  //         playBackgroundSound();
+  //         clearInterval(playAttempt);
+  //       }).catch(() => {
+  //         // If autoplay is blocked, we'll try again on the next interval
+  //       });
+  //     }, 1000); // Try every second
 
-      return () => clearInterval(playAttempt);
-    }
-  }, [loading, playBackgroundSound]);
+  //     return () => clearInterval(playAttempt);
+  //   }
+  // }, [loading, playBackgroundSound]);
 
   const handlePlayNowClick = useCallback((event: React.MouseEvent | React.TouchEvent) => {
     event.preventDefault();
     playClickSound();
+    window.open("https://t.me/fortunetap_bot", "_blank")
     // Only play click sound, no background sound here
   }, [playClickSound]);
 

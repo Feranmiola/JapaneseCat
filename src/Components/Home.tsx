@@ -42,7 +42,7 @@ const Home = () => {
     const handlePlayNowClick = useCallback((event: React.MouseEvent | React.TouchEvent) => {
         event.preventDefault();
         playClickSound();
-        // Only play click sound, no background sound here
+        window.open("https://t.me/fortunetap_bot", "_blank");
     }, [playClickSound]);
 
 
